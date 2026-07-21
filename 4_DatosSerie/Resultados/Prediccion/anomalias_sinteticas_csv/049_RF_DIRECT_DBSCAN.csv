@@ -1,0 +1,14 @@
+id,valor,fuente,fecha,metodo_prediccion,metodo_deteccion,anomalo
+49,430.95,sintetica,2026-01-29,RF_DIRECT,DBSCAN,True
+49,432.22,sintetica,2026-01-30,RF_DIRECT,DBSCAN,True
+49,435.63,sintetica,2026-01-31,RF_DIRECT,DBSCAN,True
+49,440.93,sintetica,2026-02-01,RF_DIRECT,DBSCAN,False
+49,446.13,sintetica,2026-02-02,RF_DIRECT,DBSCAN,False
+49,451.27,sintetica,2026-02-03,RF_DIRECT,DBSCAN,False
+49,451.89,sintetica,2026-02-04,RF_DIRECT,DBSCAN,False
+49,452.15,sintetica,2026-02-05,RF_DIRECT,DBSCAN,False
+49,446.87,sintetica,2026-02-06,RF_DIRECT,DBSCAN,False
+49,445.76,sintetica,2026-02-07,RF_DIRECT,DBSCAN,False
+49,446.36,sintetica,2026-02-08,RF_DIRECT,DBSCAN,False
+49,446.39,sintetica,2026-02-09,RF_DIRECT,DBSCAN,False
+49,447.69,sintetica,2026-02-10,RF_DIRECT,DBSCAN,False

@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-01-29,1142.42,ARIMA,sintetica,NBEATS_FEEDBACK

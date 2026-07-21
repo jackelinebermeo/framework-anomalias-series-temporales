@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-27,492.55,TIMEGPT,sintetica,LSTM_DIRECT

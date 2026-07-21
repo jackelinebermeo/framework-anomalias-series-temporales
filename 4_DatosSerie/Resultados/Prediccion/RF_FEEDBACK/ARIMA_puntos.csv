@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-01-29,413.67,ARIMA,sintetica,RF_FEEDBACK
+2026-02-12,444.58,ARIMA,sintetica,RF_FEEDBACK

@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-09,476.03,TIMEGPT,sintetica,SVR_FEEDBACK

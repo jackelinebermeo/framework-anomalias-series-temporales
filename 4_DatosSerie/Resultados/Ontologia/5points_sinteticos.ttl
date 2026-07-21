@@ -1,0 +1,2524 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "414.39"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "414.38"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "414.38"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "414.37"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "413.98"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "413.97"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "415.78"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "415.49"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "413.9"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "413.58"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "414.19"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "414.03"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "413.22"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "412.87"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "412.98"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "412.81"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "412.33"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "412.01"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "411.9"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "411.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "411.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "411.06"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "410.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "410.64"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "410.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "410.08"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "409.85"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "409.62"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "409.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "409.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "408.85"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "408.6"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "408.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "408.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "658.9"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "543.75"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "593.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "622.58"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "542.79"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "556.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "550.8"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "588.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "584.33"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "614.78"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "568.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "606.5"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "673.59"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "658.93"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "613.79"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "609.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "640.75"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "591.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "579.05"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "654.65"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "627.69"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "638.41"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "619.53"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "643.96"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "653.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "657.96"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "683.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "625.32"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "629.01"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "580.73"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "462.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "476.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "494.54"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "512.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "530.76"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "548.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "565.26"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "582.07"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "598.66"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "615.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "631.38"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "647.55"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "663.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "679.64"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "695.59"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "711.5"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "727.4"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "743.29"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "759.21"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "775.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "791.2"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "807.3"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "823.51"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "839.84"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "856.32"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "872.97"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "889.82"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "906.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "924.2"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "941.79"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "430.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "430.2"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "439.69"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "425.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "438.53"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "439.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "449.81"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "427.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "432.05"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "455.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "450.47"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "452.66"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "431.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "456.21"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "452.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "445.01"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "455.1"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "450.28"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "466.15"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "437.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "476.68"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "447.3"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "454.99"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "466.11"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "468.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "499.22"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "470.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "465.11"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "489.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "492.55"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "418.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "418.56"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "418.91"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "420.23"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "422.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "425.0"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "427.98"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "431.17"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "434.48"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "437.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "441.27"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "444.71"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "448.15"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "451.58"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "455.01"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "458.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "461.81"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "465.17"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "468.51"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "471.81"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "475.08"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "478.32"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "481.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "484.68"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "487.8"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "490.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "493.93"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "496.94"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "499.91"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "502.85"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "978.65"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "979.54"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "975.19"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "992.45"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "976.69"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "975.78"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "976.6"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "963.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "975.26"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "980.0"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "969.51"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "979.45"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "973.13"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "974.83"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "953.92"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "978.94"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "977.75"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "982.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "965.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "981.75"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "974.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "991.08"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "973.47"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "986.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "981.77"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "982.05"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "988.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "982.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "973.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "973.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "1142.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "1253.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "1255.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "1259.57"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "1263.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "1267.59"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "1266.02"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "1267.48"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "1270.72"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "1269.16"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "1269.65"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "1269.65"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "1269.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "1264.42"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "1262.0"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "1261.55"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "1256.56"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "1254.0"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "1251.41"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "1249.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "1242.62"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "1239.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "1238.68"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "1234.17"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "1232.76"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "1231.97"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "1232.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "1228.64"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "1228.91"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "1232.27"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "1232.15"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "1253.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "1255.14"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "1261.3"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "1263.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "1265.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "1265.49"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "1265.19"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "1270.44"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "1269.38"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "1268.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "1268.47"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "1268.31"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "1265.2"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "1261.59"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "1261.28"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "1254.54"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "1252.17"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "1249.68"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "1248.77"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "1240.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "1239.25"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "1237.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "1233.27"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "1235.71"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "1232.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "1231.87"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "1230.26"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "1232.08"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "1231.87"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "1232.57"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "430.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "432.22"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "435.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "440.93"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "446.13"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "451.27"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "451.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "452.15"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "446.87"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "445.76"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "446.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "446.39"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "447.69"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "447.21"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "446.96"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "446.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "444.94"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "442.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "441.03"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "439.69"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "439.14"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "439.01"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "438.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "437.85"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "437.61"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "436.63"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "437.5"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "438.78"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "442.48"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "447.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "413.67"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "415.62"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "415.99"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "415.95"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "416.68"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "416.21"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "416.93"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "418.14"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "419.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "421.39"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "423.2"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "425.65"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "428.55"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "434.6"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "444.58"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "453.76"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "460.52"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "462.16"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "458.02"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "456.74"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "456.11"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "456.13"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "455.98"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "455.66"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "454.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "454.06"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "457.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "458.13"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "457.93"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "457.46"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "534.75"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "525.94"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "525.97"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "526.21"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "520.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "520.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "518.7"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "519.39"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "518.34"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "519.77"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "521.09"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "515.94"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "512.55"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "516.49"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "515.71"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "522.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "517.78"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "523.02"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "528.12"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "528.51"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "533.96"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "527.41"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "521.71"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "516.62"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "512.74"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "504.5"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "496.22"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "497.43"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "487.8"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "483.88"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-01-29"^^xsd:date ;
+  anom:pointValue "459.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_30
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-01-30"^^xsd:date ;
+  anom:pointValue "462.07"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_31
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-01-31"^^xsd:date ;
+  anom:pointValue "463.76"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_01
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-01"^^xsd:date ;
+  anom:pointValue "465.47"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_02
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-02"^^xsd:date ;
+  anom:pointValue "466.8"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_03
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-03"^^xsd:date ;
+  anom:pointValue "468.1"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_04
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-04"^^xsd:date ;
+  anom:pointValue "469.47"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_05
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-05"^^xsd:date ;
+  anom:pointValue "470.97"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_06
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-06"^^xsd:date ;
+  anom:pointValue "472.32"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_07
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-07"^^xsd:date ;
+  anom:pointValue "473.57"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_08
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-08"^^xsd:date ;
+  anom:pointValue "474.8"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_09
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-09"^^xsd:date ;
+  anom:pointValue "476.03"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_10
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-10"^^xsd:date ;
+  anom:pointValue "477.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_11
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-11"^^xsd:date ;
+  anom:pointValue "478.62"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_12
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-12"^^xsd:date ;
+  anom:pointValue "480.06"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_13
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-13"^^xsd:date ;
+  anom:pointValue "481.36"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_14
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-14"^^xsd:date ;
+  anom:pointValue "482.56"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_15
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-15"^^xsd:date ;
+  anom:pointValue "483.91"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_16
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-16"^^xsd:date ;
+  anom:pointValue "485.45"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_17
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-17"^^xsd:date ;
+  anom:pointValue "486.89"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_18
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-18"^^xsd:date ;
+  anom:pointValue "488.16"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_19
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-19"^^xsd:date ;
+  anom:pointValue "489.39"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_20
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-20"^^xsd:date ;
+  anom:pointValue "490.35"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_21
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-21"^^xsd:date ;
+  anom:pointValue "491.18"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_22
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-22"^^xsd:date ;
+  anom:pointValue "492.04"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_23
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-23"^^xsd:date ;
+  anom:pointValue "492.86"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_24
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-24"^^xsd:date ;
+  anom:pointValue "493.54"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_25
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-25"^^xsd:date ;
+  anom:pointValue "494.29"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_26
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-26"^^xsd:date ;
+  anom:pointValue "495.08"^^xsd:decimal .
+
+anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_27
+  rdf:type anom:Point ;
+  anom:isPointOf anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:pointDate "2026-02-27"^^xsd:date ;
+  anom:pointValue "495.89"^^xsd:decimal .

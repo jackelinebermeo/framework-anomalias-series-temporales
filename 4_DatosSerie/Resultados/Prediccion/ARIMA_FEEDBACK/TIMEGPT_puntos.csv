@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-09,412.81,TIMEGPT,sintetica,ARIMA_FEEDBACK

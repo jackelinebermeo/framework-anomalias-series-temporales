@@ -1,0 +1,1599 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29_2026_01_30__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29_2026_01_31__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_31 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_30__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-01-30"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_01__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_01 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_21__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_21 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_21__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_DIRECT_2026_02_21 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-01-31"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_29_2026_02_09__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "12"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_17_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "11"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-01-31"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_02__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-02-02"^^xsd:date ;
+  anom:endDate "2026-02-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_02 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-01-31"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_01_31 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_21__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_21 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_22__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_ARIMA_FEEDBACK ;
+  anom:startDate "2026-02-22"^^xsd:date ;
+  anom:endDate "2026-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_ARIMA_FEEDBACK_2026_02_22 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29_2026_01_30__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29_2026_02_09__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "12"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_16_2026_02_22__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-02-16"^^xsd:date ;
+  anom:endDate "2026-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_22 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "7"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_30__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-01-30"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_30 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_01__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_01 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_21__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_FEEDBACK_2026_02_21 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_29_2026_01_30__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_29_2026_02_01__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_01 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_09_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_13 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "19"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_30__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-01-30"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_26__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-26"^^xsd:date ;
+  anom:endDate "2026-02-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_26 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_SVR_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_SVR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_12__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_29_2026_02_11__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_11 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "14"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_13_2026_02_17__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-13"^^xsd:date ;
+  anom:endDate "2026-02-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_13 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_17 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "5"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_24_2026_02_25__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-25"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_25 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_12_2026_02_13__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_13 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_15__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-15"^^xsd:date ;
+  anom:endDate "2026-02-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_15 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_24__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_24 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_21__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_FEEDBACK_2026_02_21 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-06"^^xsd:date ;
+  anom:endDate "2026-02-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29_2026_01_31__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_31 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_02_2026_02_07__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-02"^^xsd:date ;
+  anom:endDate "2026-02-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_07 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "6"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_10_2026_02_12__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_12 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_18_2026_02_25__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-18"^^xsd:date ;
+  anom:endDate "2026-02-25"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_25 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "8"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_01__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_01 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-06"^^xsd:date ;
+  anom:endDate "2026-02-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_06 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_RF_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_RF_DIRECT_2026_02_21 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_01_2026_02_12__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_12 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "12"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_17_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "11"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_10 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_17__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_17 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_24__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_24 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_31__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-01-31"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_31 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_29__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_01__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_01 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_05_2026_02_06__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-05"^^xsd:date ;
+  anom:endDate "2026-02-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_06 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_10_2026_02_13__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_13 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_17_2026_02_19__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_19 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_21__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_21 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_23__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-23"^^xsd:date ;
+  anom:endDate "2026-02-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_23 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_25_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-25"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_13__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-13"^^xsd:date ;
+  anom:endDate "2026-02-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_13 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_17__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_17 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_24__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_24 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_PROPHET_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_PROPHET_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_01__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_29_2026_01_30__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_01_30 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_03_2026_02_09__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-03"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "7"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_16_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-16"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "12"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_09_2026_02_10__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_10 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-23"^^xsd:date ;
+  anom:endDate "2026-02-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_29_2026_02_03__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_03 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "6"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_05_2026_02_07__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-05"^^xsd:date ;
+  anom:endDate "2026-02-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_07 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_10_2026_02_11__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_11 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_13__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-13"^^xsd:date ;
+  anom:endDate "2026-02-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_13 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_16_2026_02_19__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-16"^^xsd:date ;
+  anom:endDate "2026-02-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_19 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_21_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "7"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_18__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-18"^^xsd:date ;
+  anom:endDate "2026-02-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_18 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-23"^^xsd:date ;
+  anom:endDate "2026-02-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-23"^^xsd:date ;
+  anom:endDate "2026-02-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_23 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_LSTM_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_LSTM_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_29_2026_01_30__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_01__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-01"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_01 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_03__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-03"^^xsd:date ;
+  anom:endDate "2026-02-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_03 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_05__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-05"^^xsd:date ;
+  anom:endDate "2026-02-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_05 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_07_2026_02_10__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-07"^^xsd:date ;
+  anom:endDate "2026-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_10 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_15_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-15"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "13"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12_2026_02_13__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_13 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-12"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_12 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_20__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-20"^^xsd:date ;
+  anom:endDate "2026-02-20"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_20 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_22__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-22"^^xsd:date ;
+  anom:endDate "2026-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_22 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_23__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_DIRECT ;
+  anom:startDate "2026-02-23"^^xsd:date ;
+  anom:endDate "2026-02-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_DIRECT_2026_02_23 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_29__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_30_2026_02_27__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:startDate "2026-01-30"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_13 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "29"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_09_2026_02_12__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_11 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_12 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21_2026_02_22__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_22 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21_2026_02_22__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_NBEATS_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_NBEATS_FEEDBACK_2026_02_22 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_29_2026_01_30__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_29_2026_01_31__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_31 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_02_2026_02_06__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-02"^^xsd:date ;
+  anom:endDate "2026-02-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_06 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "5"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_08_2026_02_11__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-08"^^xsd:date ;
+  anom:endDate "2026-02-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_11 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_14_2026_02_19__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-14"^^xsd:date ;
+  anom:endDate "2026-02-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_19 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "6"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_21_2026_02_24__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_30__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-01-30"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_01_30 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_02__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-02"^^xsd:date ;
+  anom:endDate "2026-02-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_02 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_10__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-10"^^xsd:date ;
+  anom:endDate "2026-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_10 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_21__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_21 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_DIRECT ;
+  anom:startDate "2026-02-24"^^xsd:date ;
+  anom:endDate "2026-02-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_DIRECT_2026_02_24 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_29_2026_01_30__dm_arima
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_29_2026_02_09__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-01-29"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "12"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_17_2026_02_27__dm_dbscan
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-02-17"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_17 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_25 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "11"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_31_2026_02_01__dm_dif
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-01-31"^^xsd:date ;
+  anom:endDate "2026-02-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_01_31 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_01 ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27__dm_iforest
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_09__dm_timegpt
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-02-09"^^xsd:date ;
+  anom:endDate "2026-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_09 ;
+  anom:detectedBy anom:dm_timegpt ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27__dm_timesnet
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-02-27"^^xsd:date ;
+  anom:endDate "2026-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_27 ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_syn_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_21__dm_tranad
+  rdf:type anom:Anomaly ;
+  anom:locatedInSeries anom:series_riesgo_pais_1__PM_DEEPAR_FEEDBACK ;
+  anom:startDate "2026-02-21"^^xsd:date ;
+  anom:endDate "2026-02-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1__PM_DEEPAR_FEEDBACK_2026_02_21 ;
+  anom:detectedBy anom:dm_tranad ;
+  anom:count "1"^^xsd:integer .

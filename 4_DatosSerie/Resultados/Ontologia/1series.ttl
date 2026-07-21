@@ -1,0 +1,19 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:src_original
+  rdf:type anom:Source ;
+  rdfs:label "Fuente original"@es ;
+  rdfs:label "Original source"@en ;
+  anom:sourceType "observada" .
+
+anom:series_riesgo_pais_1
+  rdf:type anom:Series ;
+  anom:seriesId "1" ;
+  anom:hasSource anom:src_original ;
+  anom:seriesName "Riesgo Pais" ;
+  rdfs:label "Riesgo Pais"@es ;
+  anom:frequency "daily" ;
+  anom:unit "points" .

@@ -1,0 +1,12 @@
+id,valor,fuente,fecha,metodo_prediccion,metodo_deteccion,anomalo
+96,430.89,sintetica,2026-01-29,LSTM_DIRECT,ARIMA,True
+96,430.2,sintetica,2026-01-30,LSTM_DIRECT,ARIMA,False
+96,439.69,sintetica,2026-01-31,LSTM_DIRECT,ARIMA,False
+96,425.89,sintetica,2026-02-01,LSTM_DIRECT,ARIMA,False
+96,438.53,sintetica,2026-02-02,LSTM_DIRECT,ARIMA,False
+96,439.67,sintetica,2026-02-03,LSTM_DIRECT,ARIMA,False
+96,449.81,sintetica,2026-02-04,LSTM_DIRECT,ARIMA,False
+96,427.34,sintetica,2026-02-05,LSTM_DIRECT,ARIMA,False
+96,432.05,sintetica,2026-02-06,LSTM_DIRECT,ARIMA,False
+96,455.67,sintetica,2026-02-07,LSTM_DIRECT,ARIMA,False
+96,450.47,sintetica,2026-02-08,LSTM_DIRECT,ARIMA,False

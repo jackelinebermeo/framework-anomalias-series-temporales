@@ -1,0 +1,896 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Ontología (header)
+#################################################################
+
+<http://w3id.org/anomalycontext>
+  rdf:type owl:Ontology ;
+  rdfs:label "AnomalyContext Ontology"@en ;
+  rdfs:comment "Ontology for modeling time series, observations (points), detected anomalies, prediction/detection methods, external temporal context from news, and anomaly similarity results."@en ;
+  rdfs:comment "Ontología para modelar series temporales, observaciones (puntos), anomalías detectadas, métodos de predicción y detección, la comparación de anomalías de series originales frente a anomalías sintéticas generadas por distintos métodos, así como contexto temporal externo mediante noticias y categorías, y resultados de similitud entre anomalías."@es .
+
+#################################################################
+# CLASES
+#################################################################
+
+anom:Source
+  rdf:type owl:Class ;
+  rdfs:label "Source"@en ;
+  rdfs:label "Origen"@es ;
+  rdfs:comment "Entidad que representa el origen de una serie temporal (observada o sintética)."@es .
+
+anom:Series
+  rdf:type owl:Class ;
+  rdfs:label "Series"@en ;
+  rdfs:label "Serie"@es ;
+  rdfs:comment "Serie temporal que agrupa observaciones ordenadas en el tiempo."@es .
+
+anom:Point
+  rdf:type owl:Class ;
+  rdfs:label "Point"@en ;
+  rdfs:label "Punto"@es ;
+  rdfs:comment "Observación individual de una serie temporal, definida por una fecha y un valor."@es .
+
+anom:Anomaly
+  rdf:type owl:Class ;
+  rdfs:label "Anomaly"@en ;
+  rdfs:label "Anomalía"@es ;
+  rdfs:comment "Ventana temporal anómala que agrupa uno o más puntos dentro de una serie temporal."@es .
+
+anom:NewsArticle
+  rdf:type owl:Class ;
+  rdfs:label "News Article"@en ;
+  rdfs:label "Noticia"@es ;
+  rdfs:comment "Artículo periodístico que proporciona contexto explicativo sobre una o más anomalías."@es .
+
+anom:Category
+  rdf:type owl:Class ;
+  rdfs:label "Category"@en ;
+  rdfs:label "Categoría"@es ;
+  rdfs:comment "Clasificación temática controlada para agrupar artículos de noticias."@es .
+
+anom:PredictionMethod
+  rdf:type owl:Class ;
+  rdfs:label "Prediction Method"@en ;
+  rdfs:label "Método de predicción"@es ;
+  rdfs:comment "Algoritmo o enfoque utilizado para generar una serie temporal predicha."@es .
+
+anom:DetectionMethod
+  rdf:type owl:Class ;
+  rdfs:label "Detection Method"@en ;
+  rdfs:label "Método de detección"@es ;
+  rdfs:comment "Algoritmo o enfoque utilizado para detectar anomalías en una serie temporal."@es .
+
+
+anom:Similarity
+  rdf:type owl:Class ;
+  rdfs:label "Similarity"@en ;
+  rdfs:label "Similitud"@es ;
+  rdfs:comment "Resultado de comparación entre dos anomalías bajo un método específico (p.ej. DTW o embeddings visuales). Se modela como entidad intermedia para permitir múltiples métodos, ranking Top-K y trazabilidad."@es .
+
+anom:SimilarityMethod
+  rdf:type owl:Class ;
+  rdfs:label "Similarity Method"@en ;
+  rdfs:label "Método de similitud"@es ;
+  rdfs:comment "Algoritmo/enfoque usado para calcular la similitud entre anomalías (DTW, embeddings visuales, etc.)."@es .
+
+anom:SimilarityRun
+  rdf:type owl:Class ;
+  rdfs:label "Similarity Run"@en ;
+  rdfs:label "Ejecución de similitud"@es ;
+  rdfs:comment "Ejecución/experimento que produce uno o más resultados de similitud. Permite documentar política de selección (ALL_PAIRS vs TOP_K), topK y archivo fuente."@es .
+
+anom:SelectionPolicy
+  rdf:type owl:Class ;
+  rdfs:label "Selection Policy"@en ;
+  rdfs:label "Política de selección"@es ;
+  rdfs:comment "Catálogo: ALL_PAIRS (todas las parejas) o TOP_K (solo K más similares por anomalía base)."@es .
+
+##anom:SimilarityScale
+#  rdf:type owl:Class ;
+#  rdfs:label "Similarity Scale"@en ;
+#  rdfs:label "Escala de similitud"@es ;
+#  rdfs:comment "Catálogo de escalas/interpretación del valor: 0-1, 0-100, distancia (menor=mejor), etc."@es .
+
+
+  
+#################################################################
+# OBJECT PROPERTIES (Relaciones)
+#################################################################
+
+
+# Similarity -> Anomaly (par comparado)
+anom:betweenAnomalyA
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range anom:Anomaly ;
+  rdfs:label "between anomaly A"@en ;
+  rdfs:label "entre anomalía A"@es ;
+  rdfs:comment "Anomalía base/origen de la comparación (útil para similitud dirigida Top-K)."@es .
+
+anom:betweenAnomalyB
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range anom:Anomaly ;
+  rdfs:label "between anomaly B"@en ;
+  rdfs:label "entre anomalía B"@es ;
+  rdfs:comment "Anomalía candidata/objetivo de la comparación."@es .
+
+
+############################################################
+# SimilarityRun ↔ SimilarityMethod
+############################################################
+
+anom:runMethod
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:SimilarityRun ;
+  rdfs:range anom:SimilarityMethod ;
+  rdfs:label "run method"@en ;
+  rdfs:label "método de ejecución"@es ;
+  rdfs:comment "Método aplicado en la ejecución (DTW o embeddings visuales)."@es ;
+  owl:inverseOf anom:isRunMethodOf .
+
+anom:isRunMethodOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:SimilarityMethod ;
+  rdfs:range anom:SimilarityRun ;
+  rdfs:label "is run method of"@en ;
+  rdfs:label "es método de ejecución de"@es ;
+  rdfs:comment "Ejecuciones de similitud en las que se utilizó este método."@es ;
+  owl:inverseOf anom:runMethod .
+
+############################################################
+# Similarity ↔ SimilarityRun
+############################################################
+
+anom:fromRun
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range anom:SimilarityRun ;
+  rdfs:label "from run"@en ;
+  rdfs:label "proviene de ejecución"@es ;
+  rdfs:comment "Ejecución de similitud que generó este resultado."@es ;
+  owl:inverseOf anom:producesSimilarity .
+
+anom:producesSimilarity
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:SimilarityRun ;
+  rdfs:range anom:Similarity ;
+  rdfs:label "produces similarity"@en ;
+  rdfs:label "produce similitud"@es ;
+  rdfs:comment "Resultados de similitud generados por una ejecución."@es ;
+  owl:inverseOf anom:fromRun .
+
+
+
+
+################ REQUIERE ANÁLISIS MAS DETALLADO, PRESENTE EN PRIMERA VERSION DE FORMA TENTATIVA
+
+# Similarity -> SimilarityScale
+#anom:hasScale
+#  rdf:type owl:ObjectProperty ;
+#  rdfs:domain anom:Similarity ;
+#  rdfs:range anom:SimilarityScale ;
+#  rdfs:label "has scale"@en ;
+#  rdfs:label "tiene escala"@es ;
+#  rdfs:comment "Escala/interpretación del similarityValue (0-1, 0-100, distancia)."@es .
+
+
+# SimilarityRun -> SelectionPolicy
+anom:selectionPolicy
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:SimilarityRun ;
+  rdfs:range anom:SelectionPolicy ;
+  rdfs:label "selection policy"@en ;
+  rdfs:label "política de selección"@es ;
+  rdfs:comment "Indica si se publican todas las parejas (ALL_PAIRS) o solo Top-K (TOP_K)."@es .
+
+
+
+#################################################################
+# DATATYPE PROPERTIES (IDs y atributos) — 
+#################################################################
+
+############################
+# Anomaly
+############################
+
+# IDs útiles para enlazar desde CSV
+anom:anomalyId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range xsd:string ;
+  rdfs:label "anomaly id"@en ;
+  rdfs:label "id de anomalía"@es ;
+  rdfs:comment "Identificador literal de la anomalía (si el CSV trae id)."@es .
+
+# Ventana temporal y tamaño
+anom:startDate
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range xsd:date ;
+  rdfs:label "start date"@en ;
+  rdfs:label "fecha de inicio"@es ;
+  rdfs:comment "Fecha de inicio del evento/ventana anómala."@es .
+
+anom:endDate
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range xsd:date ;
+  rdfs:label "end date"@en ;
+  rdfs:label "fecha de fin"@es ;
+  rdfs:comment "Fecha de fin del evento/ventana anómala."@es .
+
+anom:count
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range xsd:integer ;
+  rdfs:label "count"@en ;
+  rdfs:label "conteo"@es ;
+  rdfs:comment "Número de puntos que componen la anomalía."@es .
+
+
+############################
+# NewsArticle
+############################
+
+anom:newsTitle
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news title"@en ;
+  rdfs:label "título de la noticia"@es .
+
+anom:newsText
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news text"@en ;
+  rdfs:label "texto de la noticia"@es .
+
+anom:newsUrl
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:anyURI ;
+  rdfs:label "news url"@en ;
+  rdfs:label "url de la noticia"@es .
+
+anom:newsSource
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news source"@en ;
+  rdfs:label "fuente de la noticia"@es .
+
+anom:publishedAt
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:date ;
+  rdfs:label "published at"@en ;
+  rdfs:label "fecha de publicación"@es .
+
+
+############################
+# Category
+############################
+
+anom:categoryName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Category ;
+  rdfs:range xsd:string ;
+  rdfs:label "category name"@en ;
+  rdfs:label "nombre de categoría"@es ;
+  rdfs:comment "Nombre literal de la categoría temática (catálogo controlado)."@es .
+
+############################
+# DetectionMethod
+############################
+
+anom:detectionMethodId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:DetectionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "detection method id"@en ;
+  rdfs:label "id del método de detección"@es ;
+  rdfs:comment "Identificador corto del método de detección (p.ej., DM_TIMEGPT, DM_DIF)."@es .
+
+anom:detectionMethodName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:DetectionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "detection method name"@en ;
+  rdfs:label "nombre del método de detección"@es ;
+  rdfs:comment "Nombre legible del método de detección."@es .
+
+anom:detectionMethodType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:DetectionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "detection method type"@en ;
+  rdfs:label "tipo de método de detección"@es ;
+  rdfs:comment "Tipo de detector (estadístico, ML, DL, fundacional, etc.)."@es .
+
+
+############################
+# PredictionMethod
+############################
+
+anom:predictionMethodId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:PredictionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "prediction method id"@en ;
+  rdfs:label "id del método de predicción"@es ;
+  rdfs:comment "Identificador corto del método de predicción (p.ej., PM_ARIMA_DIRECT, PM_RF_FEEDBACK)."@es .
+
+anom:predictionMethodName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:PredictionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "prediction method name"@en ;
+  rdfs:label "nombre del método de predicción"@es ;
+  rdfs:comment "Nombre legible del método de predicción."@es .
+
+anom:predictionMode
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:PredictionMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "prediction mode"@en ;
+  rdfs:label "modo de predicción"@es ;
+  rdfs:comment "Modo de generación de la serie (direct, feedback, recursive, etc.)."@es .
+
+
+############################
+# SimilarityMethod
+############################
+
+anom:similarityMethodId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SimilarityMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "similarity method id"@en ;
+  rdfs:label "id del método de similitud"@es ;
+  rdfs:comment "Identificador corto del método de similitud (p.ej., SM_DTW, SM_EMB_VISUAL)."@es .
+
+anom:similarityMethodName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SimilarityMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "similarity method name"@en ;
+  rdfs:label "nombre del método de similitud"@es ;
+  rdfs:comment "Nombre legible del método de similitud."@es .
+
+anom:similarityKind
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SimilarityMethod ;
+  rdfs:range xsd:string ;
+  rdfs:label "similarity kind"@en ;
+  rdfs:label "tipo de similitud"@es ;
+  rdfs:comment "Naturaleza de la similitud: numeric, visual, hybrid."@es .
+
+############################
+# Similarity
+############################
+
+anom:similarityValue
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range xsd:decimal ;
+  rdfs:label "similarity value"@en ;
+  rdfs:label "valor de similitud"@es ;
+  rdfs:comment "Score numérico de similitud."@es .
+
+anom:rank
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range xsd:integer ;
+  rdfs:label "rank"@en ;
+  rdfs:label "rango"@es ;
+  rdfs:comment "Posición en Top-K (1=mejor, 2=segundo). Usado para similitud visual Top-2; no requerido para ALL_PAIRS."@es .
+
+anom:evidenceFile
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range xsd:string ;
+  rdfs:label "evidence file"@en ;
+  rdfs:label "archivo de evidencia"@es ;
+  rdfs:comment "Archivo asociado como evidencia (p.ej. PNG de comparación para embeddings visuales)."@es .
+
+anom:computedAt
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Similarity ;
+  rdfs:range xsd:dateTime ;
+  rdfs:label "computed at"@en ;
+  rdfs:label "calculado en"@es ;
+  rdfs:comment "Fecha/hora del cálculo (opcional, para trazabilidad)."@es .
+
+
+############################
+# SimilarityRun
+############################
+
+anom:topK
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SimilarityRun ;
+  rdfs:range xsd:integer ;
+  rdfs:label "top K"@en ;
+  rdfs:label "top K"@es ;
+  rdfs:comment "K usado por la política TOP_K (por ejemplo, 2)."@es .
+
+anom:sourceFile
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SimilarityRun ;
+  rdfs:range xsd:string ;
+  rdfs:label "source file"@en ;
+  rdfs:label "archivo origen"@es ;
+  rdfs:comment "Nombre/ruta del CSV desde el cual se cargaron los resultados."@es .
+
+############################
+# SelectionPolicy
+############################
+
+anom:policyId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:SelectionPolicy ;
+  rdfs:range xsd:string ;
+  rdfs:label "policy id"@en ;
+  rdfs:label "id de política"@es ;
+  rdfs:comment "Identificador de la política de selección (TOP_K, ALL_PAIRS)."@es .
+
+
+#################################################################
+# RESTRICCIONES OWL — Consistencia estructural
+#################################################################
+
+############################
+# Point
+############################
+# Un Point debe pertenecer EXACTAMENTE a 1 Series
+# y debe tener EXACTAMENTE una fecha y un valor
+
+anom:Point
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty anom:isPointOf ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Series
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:pointDate ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:pointValue ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] .
+
+
+############################
+# Series
+############################
+# Una Series debe tener EXACTAMENTE 1 Source
+# y EXACTAMENTE 1 identificador de serie
+
+anom:Series
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty anom:hasSource ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Source
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:seriesId ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] .
+
+
+############################
+# Anomaly
+############################
+# Una Anomaly:
+# - pertenece EXACTAMENTE a 1 Series
+# - tiene fechas de inicio y fin
+# - es detectada por al menos 1 DetectionMethod
+# - tiene al menos 1 Point (si aplica a tu definición)
+
+anom:Anomaly
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty anom:locatedInSeries ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Series
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:startDate ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:endDate ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:detectedBy ;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:DetectionMethod
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:hasAnomalousPoint ;
+      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Point
+    ] .
+
+
+############################
+# Similarity
+############################
+# Un resultado de similitud:
+# - compara EXACTAMENTE dos anomalías
+# - proviene de EXACTAMENTE una ejecución
+# - tiene EXACTAMENTE un valor de similitud
+
+anom:Similarity
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty anom:betweenAnomalyA ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Anomaly
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:betweenAnomalyB ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:Anomaly
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:fromRun ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:SimilarityRun
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:similarityValue ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger
+    ] .
+
+
+############################
+# SimilarityRun
+############################
+# Una ejecución de similitud:
+# - usa EXACTAMENTE un método
+# - tiene EXACTAMENTE una política de selección
+
+anom:SimilarityRun
+  rdfs:subClassOf
+    [ a owl:Restriction ;
+      owl:onProperty anom:runMethod ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:SimilarityMethod
+    ] ,
+    [ a owl:Restriction ;
+      owl:onProperty anom:selectionPolicy ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onClass anom:SelectionPolicy
+    ] .
+
+
+############################
+# Source (Datatype Properties)
+############################
+
+anom:sourceName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Source ;
+  rdfs:range xsd:string ;
+  rdfs:label "source name"@en ;
+  rdfs:label "nombre de la fuente"@es ;
+  rdfs:comment "Nombre descriptivo del origen de la serie (observada, sintética, externa)."@es .
+
+anom:sourceType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Source ;
+  rdfs:range xsd:string ;
+  rdfs:label "source type"@en ;
+  rdfs:label "tipo de fuente"@es ;
+  rdfs:comment "Tipo controlado del origen de la serie. Valores esperados: observed, synthetic, external."@es .    
+
+
+
+
+
+
+#################################################################
+# Catálogo de métodos de detección (Instancias)
+#################################################################
+
+anom:dm_arima
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_ARIMA" ;
+  anom:detectionMethodName "ARIMA" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "ARIMA"@es ;
+  rdfs:label "ARIMA"@en .
+
+anom:dm_dif
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_DIF" ;
+  anom:detectionMethodName "DIF" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "DIF"@es ;
+  rdfs:label "DIF"@en .
+
+anom:dm_iforest
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_IFOREST" ;
+  anom:detectionMethodName "Isolation Forest" ;
+  anom:detectionMethodType "ml" ;
+  rdfs:label "Isolation Forest"@es ;
+  rdfs:label "Isolation Forest"@en .
+
+anom:dm_couta
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_COUTA" ;
+  anom:detectionMethodName "COUTA" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "COUTA"@es ;
+  rdfs:label "COUTA"@en .
+
+anom:dm_dbscan
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_DBSCAN" ;
+  anom:detectionMethodName "DBSCAN" ;
+  anom:detectionMethodType "ml" ;
+  rdfs:label "DBSCAN"@es ;
+  rdfs:label "DBSCAN"@en .
+
+anom:dm_tranad
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TRANAD" ;
+  anom:detectionMethodName "TranAD" ;
+  anom:detectionMethodType "dl" ;
+  rdfs:label "TranAD"@es ;
+  rdfs:label "TranAD"@en .
+
+anom:dm_timesnet
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TIMESNET" ;
+  anom:detectionMethodName "TimesNet" ;
+  anom:detectionMethodType "dl" ;
+  rdfs:label "TimesNet"@es ;
+  rdfs:label "TimesNet"@en .
+
+anom:dm_timegpt
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TIMEGPT" ;
+  anom:detectionMethodName "TimeGPT" ;
+  anom:detectionMethodType "foundation" ;
+  rdfs:label "TimeGPT"@es ;
+  rdfs:label "TimeGPT"@en .
+
+
+
+#################################################################
+# Catálogo de métodos de predicción (sInstancias)
+#################################################################
+
+anom:dm_arima
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_ARIMA" ;
+  anom:detectionMethodName "ARIMA" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "ARIMA"@es ;
+  rdfs:label "ARIMA"@en .
+
+anom:dm_dif
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_DIF" ;
+  anom:detectionMethodName "DIF" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "DIF"@es ;
+  rdfs:label "DIF"@en .
+
+anom:dm_iforest
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_IFOREST" ;
+  anom:detectionMethodName "Isolation Forest" ;
+  anom:detectionMethodType "ml" ;
+  rdfs:label "Isolation Forest"@es ;
+  rdfs:label "Isolation Forest"@en .
+
+anom:dm_couta
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_COUTA" ;
+  anom:detectionMethodName "COUTA" ;
+  anom:detectionMethodType "statistical" ;
+  rdfs:label "COUTA"@es ;
+  rdfs:label "COUTA"@en .
+
+anom:dm_dbscan
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_DBSCAN" ;
+  anom:detectionMethodName "DBSCAN" ;
+  anom:detectionMethodType "ml" ;
+  rdfs:label "DBSCAN"@es ;
+  rdfs:label "DBSCAN"@en .
+
+anom:dm_tranad
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TRANAD" ;
+  anom:detectionMethodName "TranAD" ;
+  anom:detectionMethodType "dl" ;
+  rdfs:label "TranAD"@es ;
+  rdfs:label "TranAD"@en .
+
+anom:dm_timesnet
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TIMESNET" ;
+  anom:detectionMethodName "TimesNet" ;
+  anom:detectionMethodType "dl" ;
+  rdfs:label "TimesNet"@es ;
+  rdfs:label "TimesNet"@en .
+
+anom:dm_timegpt
+  rdf:type anom:DetectionMethod ;
+  anom:detectionMethodId "DM_TIMEGPT" ;
+  anom:detectionMethodName "TimeGPT" ;
+  anom:detectionMethodType "foundation" ;
+  rdfs:label "TimeGPT"@es ;
+  rdfs:label "TimeGPT"@en .
+
+anom:pm_arima_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_ARIMA_DIRECT" ;
+  anom:predictionMethodName "ARIMA" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "ARIMA (directo)"@es ;
+  rdfs:label "ARIMA (direct)"@en .
+
+anom:pm_arima_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_ARIMA_FEEDBACK" ;
+  anom:predictionMethodName "ARIMA" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "ARIMA (feedback)"@es ;
+  rdfs:label "ARIMA (feedback)"@en .
+
+anom:pm_svr_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_SVR_DIRECT" ;
+  anom:predictionMethodName "SVR" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "SVR (directo)"@es ;
+  rdfs:label "SVR (direct)"@en .
+
+anom:pm_svr_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_SVR_FEEDBACK" ;
+  anom:predictionMethodName "SVR" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "SVR (feedback)"@es ;
+  rdfs:label "SVR (feedback)"@en .
+
+anom:pm_rf_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_RF_DIRECT" ;
+  anom:predictionMethodName "RF" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "Random Forest (directo)"@es ;
+  rdfs:label "Random Forest (direct)"@en .
+
+anom:pm_rf_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_RF_FEEDBACK" ;
+  anom:predictionMethodName "RF" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "Random Forest (feedback)"@es ;
+  rdfs:label "Random Forest (feedback)"@en .
+
+anom:pm_prophet_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_PROPHET_DIRECT" ;
+  anom:predictionMethodName "Prophet" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "Prophet (directo)"@es ;
+  rdfs:label "Prophet (direct)"@en .
+
+anom:pm_prophet_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_PROPHET_FEEDBACK" ;
+  anom:predictionMethodName "Prophet" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "Prophet (feedback)"@es ;
+  rdfs:label "Prophet (feedback)"@en .
+
+anom:pm_lstm_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_LSTM_DIRECT" ;
+  anom:predictionMethodName "LSTM" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "LSTM (directo)"@es ;
+  rdfs:label "LSTM (direct)"@en .
+
+anom:pm_lstm_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_LSTM_FEEDBACK" ;
+  anom:predictionMethodName "LSTM" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "LSTM (feedback)"@es ;
+  rdfs:label "LSTM (feedback)"@en .
+
+anom:pm_nbeats_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_NBEATS_DIRECT" ;
+  anom:predictionMethodName "N-BEATS" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "N-BEATS (directo)"@es ;
+  rdfs:label "N-BEATS (direct)"@en .
+
+anom:pm_nbeats_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_NBEATS_FEEDBACK" ;
+  anom:predictionMethodName "N-BEATS" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "N-BEATS (feedback)"@es ;
+  rdfs:label "N-BEATS (feedback)"@en .
+
+anom:pm_deepar_direct
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_DEEPAR_DIRECT" ;
+  anom:predictionMethodName "DeepAR" ;
+  anom:predictionMode "direct" ;
+  rdfs:label "DeepAR (directo)"@es ;
+  rdfs:label "DeepAR (direct)"@en .
+
+anom:pm_deepar_feedback
+  rdf:type anom:PredictionMethod ;
+  anom:predictionMethodId "PM_DEEPAR_FEEDBACK" ;
+  anom:predictionMethodName "DeepAR" ;
+  anom:predictionMode "feedback" ;
+  rdfs:label "DeepAR (feedback)"@es ;
+  rdfs:label "DeepAR (feedback)"@en .
+
+
+
+#################################################################
+# Catálogo de métodos de similitud (Instancias)
+#################################################################
+
+anom:SM_DTW
+  rdf:type anom:SimilarityMethod ;
+  anom:similarityMethodId "SM_DTW" ;
+  anom:similarityMethodName "Dynamic Time Warping" ;
+  anom:similarityKind "numeric" ;
+  rdfs:label "DTW"@es ;
+  rdfs:label "DTW"@en ;
+  rdfs:comment "Similitud numérica basada en Dynamic Time Warping entre ventanas/anomalías."@es .
+
+anom:SM_EMB_VISUAL
+  rdf:type anom:SimilarityMethod ;
+  anom:similarityMethodId "SM_EMB_VISUAL" ;
+  anom:similarityMethodName "Visual Embeddings" ;
+  anom:similarityKind "visual" ;
+  rdfs:label "Embeddings visuales"@es ;
+  rdfs:label "Visual embeddings"@en ;
+  rdfs:comment "Similitud visual entre anomalías basada en embeddings de imágenes (PNG) y ranking Top-K."@es .
+
+
+#################################################################
+# Catálogo de políticas de selección (SelectionPolicy)
+#################################################################
+
+anom:ALL_PAIRS
+  rdf:type anom:SelectionPolicy ;
+  anom:policyId "ALL_PAIRS" ;
+  rdfs:label "Todas las parejas"@es ;
+  rdfs:label "All pairs"@en ;
+  rdfs:comment "Publica resultados de similitud para todas las combinaciones posibles de anomalías (comparación exhaustiva)."@es .
+
+anom:TOP_K
+  rdf:type anom:SelectionPolicy ;
+  anom:policyId "TOP_K" ;
+  rdfs:label "Top-K"@es ;
+  rdfs:label "Top-K"@en ;
+  rdfs:comment "Publica solo las K anomalías más similares por cada anomalía base, según el ranking calculado."@es .

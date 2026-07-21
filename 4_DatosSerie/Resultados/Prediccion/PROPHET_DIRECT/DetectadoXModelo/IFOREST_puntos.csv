@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-24,1228.64,IFOREST,sintetica,PROPHET_DIRECT

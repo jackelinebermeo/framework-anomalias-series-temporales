@@ -1,0 +1,13 @@
+id,valor,fuente,fecha,metodo_prediccion,metodo_deteccion,anomalo
+22,459.86,sintetica,2026-01-29,SVR_FEEDBACK,DIF,False
+22,462.07,sintetica,2026-01-30,SVR_FEEDBACK,DIF,True
+22,463.76,sintetica,2026-01-31,SVR_FEEDBACK,DIF,False
+22,465.47,sintetica,2026-02-01,SVR_FEEDBACK,DIF,False
+22,466.8,sintetica,2026-02-02,SVR_FEEDBACK,DIF,False
+22,468.1,sintetica,2026-02-03,SVR_FEEDBACK,DIF,False
+22,469.47,sintetica,2026-02-04,SVR_FEEDBACK,DIF,False
+22,470.97,sintetica,2026-02-05,SVR_FEEDBACK,DIF,False
+22,472.32,sintetica,2026-02-06,SVR_FEEDBACK,DIF,False
+22,473.57,sintetica,2026-02-07,SVR_FEEDBACK,DIF,False
+22,474.8,sintetica,2026-02-08,SVR_FEEDBACK,DIF,False
+22,476.03,sintetica,2026-02-09,SVR_FEEDBACK,DIF,False

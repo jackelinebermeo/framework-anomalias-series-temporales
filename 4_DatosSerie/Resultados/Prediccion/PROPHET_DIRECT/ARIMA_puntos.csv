@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-01-29,1253.86,ARIMA,sintetica,PROPHET_DIRECT
+2026-02-10,1264.42,ARIMA,sintetica,PROPHET_DIRECT

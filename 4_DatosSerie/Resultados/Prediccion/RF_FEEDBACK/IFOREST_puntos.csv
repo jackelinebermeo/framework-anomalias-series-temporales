@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-15,462.16,IFOREST,sintetica,RF_FEEDBACK

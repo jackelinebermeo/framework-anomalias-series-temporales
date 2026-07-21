@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-01-29,462.18,ARIMA,sintetica,DEEPAR_FEEDBACK
+2026-01-30,476.36,ARIMA,sintetica,DEEPAR_FEEDBACK

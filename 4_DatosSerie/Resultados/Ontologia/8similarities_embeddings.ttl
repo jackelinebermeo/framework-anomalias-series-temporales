@@ -1,0 +1,10 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:SR_Visual_TopK
+  rdf:type anom:SimilarityRun ;
+  anom:runMethod anom:SM_ImageEmbeddings ;
+  anom:selectionPolicy anom:TOP_K ;
+  anom:topK "2"^^xsd:integer ;
+  anom:sourceFile "similaridades_embeddings.csv"^^xsd:string .

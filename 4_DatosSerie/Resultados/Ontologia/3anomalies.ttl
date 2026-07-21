@@ -1,0 +1,2012 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:anomaly_001_1
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "1"^^xsd:string ;
+  rdfs:label "Anomalía 1 (2005-04-20)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2005-04-20"^^xsd:date ;
+  anom:endDate "2005-04-20"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2005_04_20 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_2
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "2"^^xsd:string ;
+  rdfs:label "Anomalía 2 (2005-04-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2005-04-26"^^xsd:date ;
+  anom:endDate "2005-04-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2005_04_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_3
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "3"^^xsd:string ;
+  rdfs:label "Anomalía 3 (2006-10-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2006-10-16"^^xsd:date ;
+  anom:endDate "2006-10-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2006_10_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_4
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "4"^^xsd:string ;
+  rdfs:label "Anomalía 4 (2006-11-27)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2006-11-27"^^xsd:date ;
+  anom:endDate "2006-11-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2006_11_27 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_5
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "5"^^xsd:string ;
+  rdfs:label "Anomalía 5 (2006-12-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2006-12-01"^^xsd:date ;
+  anom:endDate "2006-12-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2006_12_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_6
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "6"^^xsd:string ;
+  rdfs:label "Anomalía 6 (2006-12-22)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2006-12-22"^^xsd:date ;
+  anom:endDate "2006-12-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2006_12_22 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_7
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "7"^^xsd:string ;
+  rdfs:label "Anomalía 7 (2007-01-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-01-18"^^xsd:date ;
+  anom:endDate "2007-01-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_01_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_8
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "8"^^xsd:string ;
+  rdfs:label "Anomalía 8 (2007-01-23)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-01-23"^^xsd:date ;
+  anom:endDate "2007-01-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_01_23 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_9
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "9"^^xsd:string ;
+  rdfs:label "Anomalía 9 (2007-01-29 a 2007-01-30)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-01-29"^^xsd:date ;
+  anom:endDate "2007-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_01_29 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_01_30 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_10
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "10"^^xsd:string ;
+  rdfs:label "Anomalía 10 (2007-02-14)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-02-14"^^xsd:date ;
+  anom:endDate "2007-02-14"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_02_14 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_11
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "11"^^xsd:string ;
+  rdfs:label "Anomalía 11 (2007-07-27)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-07-27"^^xsd:date ;
+  anom:endDate "2007-07-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_07_27 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_12
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "12"^^xsd:string ;
+  rdfs:label "Anomalía 12 (2007-08-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2007-08-16"^^xsd:date ;
+  anom:endDate "2007-08-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2007_08_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_13
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "13"^^xsd:string ;
+  rdfs:label "Anomalía 13 (2008-03-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-03-18"^^xsd:date ;
+  anom:endDate "2008-03-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_03_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_14
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "14"^^xsd:string ;
+  rdfs:label "Anomalía 14 (2008-09-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-09-15"^^xsd:date ;
+  anom:endDate "2008-09-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_09_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_15
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "15"^^xsd:string ;
+  rdfs:label "Anomalía 15 (2008-09-19)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-09-19"^^xsd:date ;
+  anom:endDate "2008-09-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_09_19 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_16
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "16"^^xsd:string ;
+  rdfs:label "Anomalía 16 (2008-09-29)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-09-29"^^xsd:date ;
+  anom:endDate "2008-09-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_09_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_17
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "17"^^xsd:string ;
+  rdfs:label "Anomalía 17 (2008-10-01 a 2008-10-02)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-01"^^xsd:date ;
+  anom:endDate "2008-10-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_01 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_02 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_18
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "18"^^xsd:string ;
+  rdfs:label "Anomalía 18 (2008-10-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-06"^^xsd:date ;
+  anom:endDate "2008-10-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_06 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_19
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "19"^^xsd:string ;
+  rdfs:label "Anomalía 19 (2008-10-09 a 2008-10-10)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-09"^^xsd:date ;
+  anom:endDate "2008-10-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_09 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_10 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_20
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "20"^^xsd:string ;
+  rdfs:label "Anomalía 20 (2008-10-14 a 2008-10-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-14"^^xsd:date ;
+  anom:endDate "2008-10-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_17 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_21
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "21"^^xsd:string ;
+  rdfs:label "Anomalía 21 (2008-10-20 a 2008-10-24)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-20"^^xsd:date ;
+  anom:endDate "2008-10-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_24 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "5"^^xsd:integer .
+
+anom:anomaly_001_22
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "22"^^xsd:string ;
+  rdfs:label "Anomalía 22 (2008-10-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-10-28"^^xsd:date ;
+  anom:endDate "2008-10-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_10_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_23
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "23"^^xsd:string ;
+  rdfs:label "Anomalía 23 (2008-11-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-11-03"^^xsd:date ;
+  anom:endDate "2008-11-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_24
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "24"^^xsd:string ;
+  rdfs:label "Anomalía 24 (2008-11-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-11-07"^^xsd:date ;
+  anom:endDate "2008-11-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_25
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "25"^^xsd:string ;
+  rdfs:label "Anomalía 25 (2008-11-21)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-11-21"^^xsd:date ;
+  anom:endDate "2008-11-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_21 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_26
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "26"^^xsd:string ;
+  rdfs:label "Anomalía 26 (2008-11-23)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-11-23"^^xsd:date ;
+  anom:endDate "2008-11-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_23 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_timesnet ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_27
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "27"^^xsd:string ;
+  rdfs:label "Anomalía 27 (2008-11-24 a 2008-11-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-11-24"^^xsd:date ;
+  anom:endDate "2008-11-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_11_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_28
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "28"^^xsd:string ;
+  rdfs:label "Anomalía 28 (2008-12-02)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-12-02"^^xsd:date ;
+  anom:endDate "2008-12-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_02 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_29
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "29"^^xsd:string ;
+  rdfs:label "Anomalía 29 (2008-12-04 a 2008-12-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-12-04"^^xsd:date ;
+  anom:endDate "2008-12-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_30
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "30"^^xsd:string ;
+  rdfs:label "Anomalía 30 (2008-12-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-12-12"^^xsd:date ;
+  anom:endDate "2008-12-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_31
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "31"^^xsd:string ;
+  rdfs:label "Anomalía 31 (2008-12-23)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-12-23"^^xsd:date ;
+  anom:endDate "2008-12-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_23 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_32
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "32"^^xsd:string ;
+  rdfs:label "Anomalía 32 (2008-12-29)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2008-12-29"^^xsd:date ;
+  anom:endDate "2008-12-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2008_12_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_33
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "33"^^xsd:string ;
+  rdfs:label "Anomalía 33 (2009-01-05 a 2009-01-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-01-05"^^xsd:date ;
+  anom:endDate "2009-01-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_34
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "34"^^xsd:string ;
+  rdfs:label "Anomalía 34 (2009-01-14 a 2009-01-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-01-14"^^xsd:date ;
+  anom:endDate "2009-01-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_35
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "35"^^xsd:string ;
+  rdfs:label "Anomalía 35 (2009-01-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-01-15"^^xsd:date ;
+  anom:endDate "2009-01-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_15 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_36
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "36"^^xsd:string ;
+  rdfs:label "Anomalía 36 (2009-01-27 a 2009-01-29)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-01-27"^^xsd:date ;
+  anom:endDate "2009-01-29"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_27 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_01_29 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_37
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "37"^^xsd:string ;
+  rdfs:label "Anomalía 37 (2009-02-11)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-02-11"^^xsd:date ;
+  anom:endDate "2009-02-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_02_11 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_38
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "38"^^xsd:string ;
+  rdfs:label "Anomalía 38 (2009-02-23 a 2009-02-25)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-02-23"^^xsd:date ;
+  anom:endDate "2009-02-25"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_02_23 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_02_25 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_39
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "39"^^xsd:string ;
+  rdfs:label "Anomalía 39 (2009-03-25)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-03-25"^^xsd:date ;
+  anom:endDate "2009-03-25"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_03_25 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_40
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "40"^^xsd:string ;
+  rdfs:label "Anomalía 40 (2009-03-31)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-03-31"^^xsd:date ;
+  anom:endDate "2009-03-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_03_31 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_41
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "41"^^xsd:string ;
+  rdfs:label "Anomalía 41 (2009-04-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-04-03"^^xsd:date ;
+  anom:endDate "2009-04-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_04_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_42
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "42"^^xsd:string ;
+  rdfs:label "Anomalía 42 (2009-05-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-05-12"^^xsd:date ;
+  anom:endDate "2009-05-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_05_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_43
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "43"^^xsd:string ;
+  rdfs:label "Anomalía 43 (2009-05-26 a 2009-05-27)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-05-26"^^xsd:date ;
+  anom:endDate "2009-05-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_05_26 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_05_27 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_44
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "44"^^xsd:string ;
+  rdfs:label "Anomalía 44 (2009-06-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-06-12"^^xsd:date ;
+  anom:endDate "2009-06-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_06_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_45
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "45"^^xsd:string ;
+  rdfs:label "Anomalía 45 (2009-07-23)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-07-23"^^xsd:date ;
+  anom:endDate "2009-07-23"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_07_23 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_46
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "46"^^xsd:string ;
+  rdfs:label "Anomalía 46 (2009-10-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-10-05"^^xsd:date ;
+  anom:endDate "2009-10-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_10_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_47
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "47"^^xsd:string ;
+  rdfs:label "Anomalía 47 (2009-10-07 a 2009-10-08)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2009-10-07"^^xsd:date ;
+  anom:endDate "2009-10-08"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_10_07 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2009_10_08 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_48
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "48"^^xsd:string ;
+  rdfs:label "Anomalía 48 (2010-08-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2010-08-17"^^xsd:date ;
+  anom:endDate "2010-08-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2010_08_17 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_49
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "49"^^xsd:string ;
+  rdfs:label "Anomalía 49 (2010-09-30 a 2010-10-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2010-09-30"^^xsd:date ;
+  anom:endDate "2010-10-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2010_09_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2010_10_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_50
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "50"^^xsd:string ;
+  rdfs:label "Anomalía 50 (2011-01-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2011-01-18"^^xsd:date ;
+  anom:endDate "2011-01-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2011_01_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_51
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "51"^^xsd:string ;
+  rdfs:label "Anomalía 51 (2011-08-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2011-08-09"^^xsd:date ;
+  anom:endDate "2011-08-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2011_08_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_52
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "52"^^xsd:string ;
+  rdfs:label "Anomalía 52 (2012-01-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2012-01-03"^^xsd:date ;
+  anom:endDate "2012-01-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2012_01_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_53
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "53"^^xsd:string ;
+  rdfs:label "Anomalía 53 (2012-06-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2012-06-05"^^xsd:date ;
+  anom:endDate "2012-06-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2012_06_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_54
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "54"^^xsd:string ;
+  rdfs:label "Anomalía 54 (2012-09-14)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2012-09-14"^^xsd:date ;
+  anom:endDate "2012-09-14"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2012_09_14 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_55
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "55"^^xsd:string ;
+  rdfs:label "Anomalía 55 (2013-01-02)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2013-01-02"^^xsd:date ;
+  anom:endDate "2013-01-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2013_01_02 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_56
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "56"^^xsd:string ;
+  rdfs:label "Anomalía 56 (2013-10-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2013-10-18"^^xsd:date ;
+  anom:endDate "2013-10-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2013_10_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_57
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "57"^^xsd:string ;
+  rdfs:label "Anomalía 57 (2014-09-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-09-05"^^xsd:date ;
+  anom:endDate "2014-09-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_09_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_58
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "58"^^xsd:string ;
+  rdfs:label "Anomalía 58 (2014-09-08)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-09-08"^^xsd:date ;
+  anom:endDate "2014-09-08"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_09_08 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_59
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "59"^^xsd:string ;
+  rdfs:label "Anomalía 59 (2014-11-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-11-04"^^xsd:date ;
+  anom:endDate "2014-11-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_11_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_60
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "60"^^xsd:string ;
+  rdfs:label "Anomalía 60 (2014-11-06 a 2014-11-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-11-06"^^xsd:date ;
+  anom:endDate "2014-11-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_11_06 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_11_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_61
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "61"^^xsd:string ;
+  rdfs:label "Anomalía 61 (2014-12-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-12-01"^^xsd:date ;
+  anom:endDate "2014-12-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_12_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_62
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "62"^^xsd:string ;
+  rdfs:label "Anomalía 62 (2014-12-15 a 2014-12-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2014-12-15"^^xsd:date ;
+  anom:endDate "2014-12-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_12_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2014_12_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_63
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "63"^^xsd:string ;
+  rdfs:label "Anomalía 63 (2015-01-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2015-01-05"^^xsd:date ;
+  anom:endDate "2015-01-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2015_01_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_64
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "64"^^xsd:string ;
+  rdfs:label "Anomalía 64 (2015-02-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2015-02-03"^^xsd:date ;
+  anom:endDate "2015-02-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2015_02_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_65
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "65"^^xsd:string ;
+  rdfs:label "Anomalía 65 (2015-07-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2015-07-06"^^xsd:date ;
+  anom:endDate "2015-07-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2015_07_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_66
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "66"^^xsd:string ;
+  rdfs:label "Anomalía 66 (2015-08-24)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2015-08-24"^^xsd:date ;
+  anom:endDate "2015-08-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2015_08_24 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_67
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "67"^^xsd:string ;
+  rdfs:label "Anomalía 67 (2016-01-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-01-12"^^xsd:date ;
+  anom:endDate "2016-01-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_01_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_68
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "68"^^xsd:string ;
+  rdfs:label "Anomalía 68 (2016-01-21 a 2016-01-22)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-01-21"^^xsd:date ;
+  anom:endDate "2016-01-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_01_21 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_01_22 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_69
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "69"^^xsd:string ;
+  rdfs:label "Anomalía 69 (2016-01-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-01-28"^^xsd:date ;
+  anom:endDate "2016-01-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_01_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_70
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "70"^^xsd:string ;
+  rdfs:label "Anomalía 70 (2016-02-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-02-17"^^xsd:date ;
+  anom:endDate "2016-02-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_02_17 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_71
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "71"^^xsd:string ;
+  rdfs:label "Anomalía 71 (2016-02-22)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-02-22"^^xsd:date ;
+  anom:endDate "2016-02-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_02_22 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_72
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "72"^^xsd:string ;
+  rdfs:label "Anomalía 72 (2016-03-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-03-16"^^xsd:date ;
+  anom:endDate "2016-03-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_03_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_73
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "73"^^xsd:string ;
+  rdfs:label "Anomalía 73 (2016-03-18)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-03-18"^^xsd:date ;
+  anom:endDate "2016-03-18"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_03_18 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_74
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "74"^^xsd:string ;
+  rdfs:label "Anomalía 74 (2016-03-31)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-03-31"^^xsd:date ;
+  anom:endDate "2016-03-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_03_31 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_75
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "75"^^xsd:string ;
+  rdfs:label "Anomalía 75 (2016-04-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-04-28"^^xsd:date ;
+  anom:endDate "2016-04-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_04_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_76
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "76"^^xsd:string ;
+  rdfs:label "Anomalía 76 (2016-11-14 a 2016-11-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2016-11-14"^^xsd:date ;
+  anom:endDate "2016-11-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_11_14 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2016_11_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_77
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "77"^^xsd:string ;
+  rdfs:label "Anomalía 77 (2018-11-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2018-11-28"^^xsd:date ;
+  anom:endDate "2018-11-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2018_11_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_78
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "78"^^xsd:string ;
+  rdfs:label "Anomalía 78 (2019-08-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2019-08-05"^^xsd:date ;
+  anom:endDate "2019-08-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2019_08_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_79
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "79"^^xsd:string ;
+  rdfs:label "Anomalía 79 (2019-10-08)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2019-10-08"^^xsd:date ;
+  anom:endDate "2019-10-08"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2019_10_08 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_80
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "80"^^xsd:string ;
+  rdfs:label "Anomalía 80 (2019-10-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2019-10-15"^^xsd:date ;
+  anom:endDate "2019-10-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2019_10_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_81
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "81"^^xsd:string ;
+  rdfs:label "Anomalía 81 (2019-11-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2019-11-26"^^xsd:date ;
+  anom:endDate "2019-11-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2019_11_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_82
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "82"^^xsd:string ;
+  rdfs:label "Anomalía 82 (2019-12-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2019-12-06"^^xsd:date ;
+  anom:endDate "2019-12-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2019_12_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_83
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "83"^^xsd:string ;
+  rdfs:label "Anomalía 83 (2020-02-04 a 2020-02-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-02-04"^^xsd:date ;
+  anom:endDate "2020-02-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_02_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_84
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "84"^^xsd:string ;
+  rdfs:label "Anomalía 84 (2020-02-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-02-07"^^xsd:date ;
+  anom:endDate "2020-02-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_02_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_85
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "85"^^xsd:string ;
+  rdfs:label "Anomalía 85 (2020-02-25)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-02-25"^^xsd:date ;
+  anom:endDate "2020-02-25"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_02_25 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_86
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "86"^^xsd:string ;
+  rdfs:label "Anomalía 86 (2020-02-27)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-02-27"^^xsd:date ;
+  anom:endDate "2020-02-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_02_27 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_87
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "87"^^xsd:string ;
+  rdfs:label "Anomalía 87 (2020-03-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-03-12"^^xsd:date ;
+  anom:endDate "2020-03-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_03_12 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_88
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "88"^^xsd:string ;
+  rdfs:label "Anomalía 88 (2020-03-20 a 2020-03-24)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-03-20"^^xsd:date ;
+  anom:endDate "2020-03-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_03_20 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_03_24 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "5"^^xsd:integer .
+
+anom:anomaly_001_89
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "89"^^xsd:string ;
+  rdfs:label "Anomalía 89 (2020-03-22 a 2020-03-30)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-03-22"^^xsd:date ;
+  anom:endDate "2020-03-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_03_22 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_03_30 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "9"^^xsd:integer .
+
+anom:anomaly_001_90
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "90"^^xsd:string ;
+  rdfs:label "Anomalía 90 (2020-04-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-04-01"^^xsd:date ;
+  anom:endDate "2020-04-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_04_01 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_iforest ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_91
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "91"^^xsd:string ;
+  rdfs:label "Anomalía 91 (2020-04-08 a 2020-04-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-04-08"^^xsd:date ;
+  anom:endDate "2020-04-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_04_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_04_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_92
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "92"^^xsd:string ;
+  rdfs:label "Anomalía 92 (2020-04-28 a 2020-05-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-04-28"^^xsd:date ;
+  anom:endDate "2020-05-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_04_28 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_93
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "93"^^xsd:string ;
+  rdfs:label "Anomalía 93 (2020-05-05 a 2020-05-08)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-05-05"^^xsd:date ;
+  anom:endDate "2020-05-08"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_05 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_08 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_94
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "94"^^xsd:string ;
+  rdfs:label "Anomalía 94 (2020-05-13 a 2020-05-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-05-13"^^xsd:date ;
+  anom:endDate "2020-05-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_13 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_95
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "95"^^xsd:string ;
+  rdfs:label "Anomalía 95 (2020-05-14)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-05-14"^^xsd:date ;
+  anom:endDate "2020-05-14"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_14 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_96
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "96"^^xsd:string ;
+  rdfs:label "Anomalía 96 (2020-05-30 a 2020-06-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-05-30"^^xsd:date ;
+  anom:endDate "2020-06-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_05_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_06_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "7"^^xsd:integer .
+
+anom:anomaly_001_97
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "97"^^xsd:string ;
+  rdfs:label "Anomalía 97 (2020-06-11)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-06-11"^^xsd:date ;
+  anom:endDate "2020-06-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_06_11 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_98
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "98"^^xsd:string ;
+  rdfs:label "Anomalía 98 (2020-06-19)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-06-19"^^xsd:date ;
+  anom:endDate "2020-06-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_06_19 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_99
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "99"^^xsd:string ;
+  rdfs:label "Anomalía 99 (2020-06-24 a 2020-06-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-06-24"^^xsd:date ;
+  anom:endDate "2020-06-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_06_24 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_06_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_100
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "100"^^xsd:string ;
+  rdfs:label "Anomalía 100 (2020-07-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-07-01"^^xsd:date ;
+  anom:endDate "2020-07-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_101
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "101"^^xsd:string ;
+  rdfs:label "Anomalía 101 (2020-07-03 a 2020-07-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-07-03"^^xsd:date ;
+  anom:endDate "2020-07-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_03 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_102
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "102"^^xsd:string ;
+  rdfs:label "Anomalía 102 (2020-07-08 a 2020-07-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-07-08"^^xsd:date ;
+  anom:endDate "2020-07-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_103
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "103"^^xsd:string ;
+  rdfs:label "Anomalía 103 (2020-07-30 a 2020-07-31)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-07-30"^^xsd:date ;
+  anom:endDate "2020-07-31"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_30 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_07_31 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_104
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "104"^^xsd:string ;
+  rdfs:label "Anomalía 104 (2020-09-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-09-01"^^xsd:date ;
+  anom:endDate "2020-09-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_09_01 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_105
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "105"^^xsd:string ;
+  rdfs:label "Anomalía 105 (2020-09-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2020-09-04"^^xsd:date ;
+  anom:endDate "2020-09-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2020_09_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_106
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "106"^^xsd:string ;
+  rdfs:label "Anomalía 106 (2021-02-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2021-02-05"^^xsd:date ;
+  anom:endDate "2021-02-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2021_02_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_107
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "107"^^xsd:string ;
+  rdfs:label "Anomalía 107 (2021-02-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2021-02-09"^^xsd:date ;
+  anom:endDate "2021-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2021_02_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_108
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "108"^^xsd:string ;
+  rdfs:label "Anomalía 108 (2021-04-10 a 2021-04-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2021-04-10"^^xsd:date ;
+  anom:endDate "2021-04-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2021_04_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2021_04_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_109
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "109"^^xsd:string ;
+  rdfs:label "Anomalía 109 (2022-03-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-03-04"^^xsd:date ;
+  anom:endDate "2022-03-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_03_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_110
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "110"^^xsd:string ;
+  rdfs:label "Anomalía 110 (2022-03-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-03-09"^^xsd:date ;
+  anom:endDate "2022-03-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_03_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_111
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "111"^^xsd:string ;
+  rdfs:label "Anomalía 111 (2022-06-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-06-16"^^xsd:date ;
+  anom:endDate "2022-06-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_06_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_112
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "112"^^xsd:string ;
+  rdfs:label "Anomalía 112 (2022-06-22)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-06-22"^^xsd:date ;
+  anom:endDate "2022-06-22"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_06_22 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_113
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "113"^^xsd:string ;
+  rdfs:label "Anomalía 113 (2022-06-24)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-06-24"^^xsd:date ;
+  anom:endDate "2022-06-24"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_06_24 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_114
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "114"^^xsd:string ;
+  rdfs:label "Anomalía 114 (2022-06-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-06-28"^^xsd:date ;
+  anom:endDate "2022-06-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_06_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_115
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "115"^^xsd:string ;
+  rdfs:label "Anomalía 115 (2022-07-12 a 2022-07-14)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-07-12"^^xsd:date ;
+  anom:endDate "2022-07-14"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_07_12 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_07_14 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_116
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "116"^^xsd:string ;
+  rdfs:label "Anomalía 116 (2022-07-19 a 2022-07-20)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-07-19"^^xsd:date ;
+  anom:endDate "2022-07-20"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_07_19 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_07_20 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_117
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "117"^^xsd:string ;
+  rdfs:label "Anomalía 117 (2022-07-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-07-26"^^xsd:date ;
+  anom:endDate "2022-07-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_07_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_118
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "118"^^xsd:string ;
+  rdfs:label "Anomalía 118 (2022-08-02 a 2022-08-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-08-02"^^xsd:date ;
+  anom:endDate "2022-08-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_08_02 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_08_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_119
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "119"^^xsd:string ;
+  rdfs:label "Anomalía 119 (2022-08-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-08-09"^^xsd:date ;
+  anom:endDate "2022-08-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_08_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_120
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "120"^^xsd:string ;
+  rdfs:label "Anomalía 120 (2022-08-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-08-12"^^xsd:date ;
+  anom:endDate "2022-08-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_08_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_121
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "121"^^xsd:string ;
+  rdfs:label "Anomalía 121 (2022-09-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-09-09"^^xsd:date ;
+  anom:endDate "2022-09-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_09_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_122
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "122"^^xsd:string ;
+  rdfs:label "Anomalía 122 (2022-09-13)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-09-13"^^xsd:date ;
+  anom:endDate "2022-09-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_09_13 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_123
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "123"^^xsd:string ;
+  rdfs:label "Anomalía 123 (2022-09-27)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-09-27"^^xsd:date ;
+  anom:endDate "2022-09-27"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_09_27 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_124
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "124"^^xsd:string ;
+  rdfs:label "Anomalía 124 (2022-10-04 a 2022-10-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-10-04"^^xsd:date ;
+  anom:endDate "2022-10-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_10_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_10_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_125
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "125"^^xsd:string ;
+  rdfs:label "Anomalía 125 (2022-11-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2022-11-01"^^xsd:date ;
+  anom:endDate "2022-11-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2022_11_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_126
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "126"^^xsd:string ;
+  rdfs:label "Anomalía 126 (2023-01-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-01-06"^^xsd:date ;
+  anom:endDate "2023-01-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_01_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_127
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "127"^^xsd:string ;
+  rdfs:label "Anomalía 127 (2023-02-02)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-02-02"^^xsd:date ;
+  anom:endDate "2023-02-02"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_02_02 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_128
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "128"^^xsd:string ;
+  rdfs:label "Anomalía 128 (2023-02-04 a 2023-02-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-02-04"^^xsd:date ;
+  anom:endDate "2023-02-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_02_04 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_02_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "4"^^xsd:integer .
+
+anom:anomaly_001_129
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "129"^^xsd:string ;
+  rdfs:label "Anomalía 129 (2023-02-15 a 2023-02-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-02-15"^^xsd:date ;
+  anom:endDate "2023-02-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_02_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_02_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_130
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "130"^^xsd:string ;
+  rdfs:label "Anomalía 130 (2023-03-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-03-03"^^xsd:date ;
+  anom:endDate "2023-03-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_03_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_131
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "131"^^xsd:string ;
+  rdfs:label "Anomalía 131 (2023-03-15)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-03-15"^^xsd:date ;
+  anom:endDate "2023-03-15"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_03_15 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_132
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "132"^^xsd:string ;
+  rdfs:label "Anomalía 132 (2023-03-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-03-17"^^xsd:date ;
+  anom:endDate "2023-03-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_03_17 ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_133
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "133"^^xsd:string ;
+  rdfs:label "Anomalía 133 (2023-03-21)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-03-21"^^xsd:date ;
+  anom:endDate "2023-03-21"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_03_21 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_134
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "134"^^xsd:string ;
+  rdfs:label "Anomalía 134 (2023-03-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-03-28"^^xsd:date ;
+  anom:endDate "2023-03-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_03_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_135
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "135"^^xsd:string ;
+  rdfs:label "Anomalía 135 (2023-04-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-04-05"^^xsd:date ;
+  anom:endDate "2023-04-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_04_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_136
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "136"^^xsd:string ;
+  rdfs:label "Anomalía 136 (2023-04-26)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-04-26"^^xsd:date ;
+  anom:endDate "2023-04-26"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_04_26 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_137
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "137"^^xsd:string ;
+  rdfs:label "Anomalía 137 (2023-05-05)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-05-05"^^xsd:date ;
+  anom:endDate "2023-05-05"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_05_05 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_138
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "138"^^xsd:string ;
+  rdfs:label "Anomalía 138 (2023-05-10)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-05-10"^^xsd:date ;
+  anom:endDate "2023-05-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_05_10 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_139
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "139"^^xsd:string ;
+  rdfs:label "Anomalía 139 (2023-05-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-05-17"^^xsd:date ;
+  anom:endDate "2023-05-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_05_17 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_140
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "140"^^xsd:string ;
+  rdfs:label "Anomalía 140 (2023-08-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-08-04"^^xsd:date ;
+  anom:endDate "2023-08-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_08_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_141
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "141"^^xsd:string ;
+  rdfs:label "Anomalía 141 (2023-08-10 a 2023-08-11)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-08-10"^^xsd:date ;
+  anom:endDate "2023-08-11"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_08_10 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_08_11 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_142
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "142"^^xsd:string ;
+  rdfs:label "Anomalía 142 (2023-08-15 a 2023-08-16)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-08-15"^^xsd:date ;
+  anom:endDate "2023-08-16"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_08_15 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_08_16 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_143
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "143"^^xsd:string ;
+  rdfs:label "Anomalía 143 (2023-09-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-09-01"^^xsd:date ;
+  anom:endDate "2023-09-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_09_01 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_144
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "144"^^xsd:string ;
+  rdfs:label "Anomalía 144 (2023-09-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-09-06"^^xsd:date ;
+  anom:endDate "2023-09-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_09_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_145
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "145"^^xsd:string ;
+  rdfs:label "Anomalía 145 (2023-09-12)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-09-12"^^xsd:date ;
+  anom:endDate "2023-09-12"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_09_12 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_146
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "146"^^xsd:string ;
+  rdfs:label "Anomalía 146 (2023-12-13)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2023-12-13"^^xsd:date ;
+  anom:endDate "2023-12-13"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2023_12_13 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_147
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "147"^^xsd:string ;
+  rdfs:label "Anomalía 147 (2024-01-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-01-09"^^xsd:date ;
+  anom:endDate "2024-01-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_01_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_148
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "148"^^xsd:string ;
+  rdfs:label "Anomalía 148 (2024-02-09)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-02-09"^^xsd:date ;
+  anom:endDate "2024-02-09"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_02_09 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_149
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "149"^^xsd:string ;
+  rdfs:label "Anomalía 149 (2024-03-01)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-03-01"^^xsd:date ;
+  anom:endDate "2024-03-01"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_03_01 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_150
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "150"^^xsd:string ;
+  rdfs:label "Anomalía 150 (2024-04-16 a 2024-04-17)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-04-16"^^xsd:date ;
+  anom:endDate "2024-04-17"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_04_16 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_04_17 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_151
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "151"^^xsd:string ;
+  rdfs:label "Anomalía 151 (2024-10-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-10-04"^^xsd:date ;
+  anom:endDate "2024-10-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_10_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_152
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "152"^^xsd:string ;
+  rdfs:label "Anomalía 152 (2024-12-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2024-12-03"^^xsd:date ;
+  anom:endDate "2024-12-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2024_12_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_153
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "153"^^xsd:string ;
+  rdfs:label "Anomalía 153 (2025-01-30)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-01-30"^^xsd:date ;
+  anom:endDate "2025-01-30"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_01_30 ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_154
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "154"^^xsd:string ;
+  rdfs:label "Anomalía 154 (2025-02-08 a 2025-02-10)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-02-08"^^xsd:date ;
+  anom:endDate "2025-02-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_02_08 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_02_10 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "3"^^xsd:integer .
+
+anom:anomaly_001_155
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "155"^^xsd:string ;
+  rdfs:label "Anomalía 155 (2025-02-13 a 2025-02-14)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-02-13"^^xsd:date ;
+  anom:endDate "2025-02-14"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_02_13 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_02_14 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_156
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "156"^^xsd:string ;
+  rdfs:label "Anomalía 156 (2025-03-06)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-03-06"^^xsd:date ;
+  anom:endDate "2025-03-06"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_03_06 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_157
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "157"^^xsd:string ;
+  rdfs:label "Anomalía 157 (2025-03-28)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-03-28"^^xsd:date ;
+  anom:endDate "2025-03-28"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_03_28 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_158
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "158"^^xsd:string ;
+  rdfs:label "Anomalía 158 (2025-04-04)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-04-04"^^xsd:date ;
+  anom:endDate "2025-04-04"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_04_04 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dbscan ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_159
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "159"^^xsd:string ;
+  rdfs:label "Anomalía 159 (2025-05-07)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-05-07"^^xsd:date ;
+  anom:endDate "2025-05-07"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_05_07 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_160
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "160"^^xsd:string ;
+  rdfs:label "Anomalía 160 (2025-06-03)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-06-03"^^xsd:date ;
+  anom:endDate "2025-06-03"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_06_03 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .
+
+anom:anomaly_001_161
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "161"^^xsd:string ;
+  rdfs:label "Anomalía 161 (2025-09-18 a 2025-09-19)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-09-18"^^xsd:date ;
+  anom:endDate "2025-09-19"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_09_18 ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_09_19 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "2"^^xsd:integer .
+
+anom:anomaly_001_162
+  rdf:type anom:Anomaly ;
+  anom:anomalyId "162"^^xsd:string ;
+  rdfs:label "Anomalía 162 (2025-10-10)"@es ;
+  anom:locatedInSeries anom:series_riesgo_pais_1 ;
+  anom:startDate "2025-10-10"^^xsd:date ;
+  anom:endDate "2025-10-10"^^xsd:date ;
+  anom:hasAnomalousPoint anom:pt_series_riesgo_pais_1_2025_10_10 ;
+  anom:detectedBy anom:dm_arima ;
+  anom:detectedBy anom:dm_couta ;
+  anom:detectedBy anom:dm_dif ;
+  anom:count "1"^^xsd:integer .

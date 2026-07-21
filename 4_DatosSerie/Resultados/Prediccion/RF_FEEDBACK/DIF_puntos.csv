@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-12,444.58,DIF,sintetica,RF_FEEDBACK
+2026-02-13,453.76,DIF,sintetica,RF_FEEDBACK

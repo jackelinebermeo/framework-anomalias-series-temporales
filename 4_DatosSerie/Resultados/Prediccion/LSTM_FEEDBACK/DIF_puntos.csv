@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2026-02-09,444.71,DIF,sintetica,LSTM_FEEDBACK
+2026-02-10,448.15,DIF,sintetica,LSTM_FEEDBACK
