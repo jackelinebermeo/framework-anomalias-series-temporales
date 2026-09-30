@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-03,1698.54,DBSCAN,sintetica,ARIMA_FEEDBACK

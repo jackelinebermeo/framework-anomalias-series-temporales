@@ -1,0 +1,372 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Ontología (header)
+#################################################################
+
+<http://w3id.org/anomaly-core>
+  rdf:type owl:Ontology ;
+  rdfs:label "Anomaly Core - Schema (Series, Points, Anomalies)"@en ;
+  rdfs:comment "Estructura para modelar series temporales, puntos (observaciones) y anomalías asociadas a puntos y/o ventanas temporales."@es .
+
+#################################################################
+# Clases
+#################################################################
+
+anom:Series
+  rdf:type owl:Class ;
+  rdfs:label "Series"@en ;
+  rdfs:label "Serie"@es .
+
+anom:Point
+  rdf:type owl:Class ;
+  rdfs:label "Point"@en ;
+  rdfs:label "Punto"@es ;
+  rdfs:comment "Observación individual de una serie (fecha + valor, opcionalmente índice)."@es .
+
+anom:Anomaly
+  rdf:type owl:Class ;
+  rdfs:label "Anomaly"@en ;
+  rdfs:label "Anomalía"@es ;
+  rdfs:comment "Evento o ventana anómala asociada a una serie y a uno o más puntos."@es .
+
+anom:NewsArticle
+  rdf:type owl:Class ;
+  rdfs:label "News Article"@en ;
+  rdfs:label "Noticia"@es ;
+  rdfs:comment "Artículo periodístico que describe uno o más hechos relacionados con una anomalía."@es .
+
+anom:Category
+  rdf:type owl:Class ;
+  rdfs:label "Category"@en ;
+  rdfs:label "Categoría"@es ;
+  rdfs:comment "Categoría temática controlada para clasificar noticias."@es .
+
+#################################################################
+# Propiedades de identificación (útiles para enlazar desde CSV)
+#################################################################
+
+anom:seriesId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "series id"@en ;
+  rdfs:label "id de serie"@es ;
+  rdfs:comment "Identificador literal de la serie (por ejemplo el serie_id del CSV)."@es ;
+  rdfs:domain owl:Thing ;
+  rdfs:range  xsd:string .
+
+anom:pointId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "point id"@en ;
+  rdfs:label "id de punto"@es ;
+  rdfs:comment "Identificador literal del punto (si manejas un id en CSV)."@es ;
+  rdfs:domain anom:Point ;
+  rdfs:range  xsd:string .
+
+anom:anomalyId
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "anomaly id"@en ;
+  rdfs:label "id de anomalía"@es ;
+  rdfs:comment "Identificador literal de la anomalía (si el CSV trae id)."@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  xsd:string .
+
+anom:hasNews
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range anom:NewsArticle ;
+  rdfs:label "has news"@en ;
+  rdfs:label "tiene noticia"@es ;
+  rdfs:comment "Relaciona una anomalía con una o más noticias asociadas."@es .
+
+anom:isNewsOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range anom:Anomaly ;
+  rdfs:label "is news of"@en ;
+  rdfs:label "es noticia de"@es ;
+  rdfs:comment "Relaciona una noticia con la anomalía que contextualiza."@es .
+
+anom:hasCategory
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range anom:Category ;
+  rdfs:label "has category"@en ;
+  rdfs:label "tiene categoría"@es ;
+  rdfs:comment "Asigna una categoría temática a una noticia."@es .
+
+#################################################################
+# Datatype Properties – Metadatos de noticias
+#################################################################
+
+anom:newsTitle
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news title"@en ;
+  rdfs:label "título de la noticia"@es .
+
+anom:newsText
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news text"@en ;
+  rdfs:label "texto de la noticia"@es .
+
+anom:newsUrl
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:anyURI ;
+  rdfs:label "news url"@en ;
+  rdfs:label "url de la noticia"@es .
+
+anom:newsSource
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:string ;
+  rdfs:label "news source"@en ;
+  rdfs:label "fuente de la noticia"@es .
+
+anom:publishedAt
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:NewsArticle ;
+  rdfs:range xsd:date ;
+  rdfs:label "published at"@en ;
+  rdfs:label "fecha de publicación"@es .
+
+anom:categoryName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain anom:Category ;
+  rdfs:range xsd:string ;
+  rdfs:label "category name"@en ;
+  rdfs:label "nombre de categoría"@es .
+
+
+#################################################################
+# Categorías controladas (Individuos)
+#################################################################
+
+anom:cat_politica_gobierno
+  rdf:type anom:Category ;
+  anom:categoryName "Política y Gobierno"@es ;
+  rdfs:label "Política y Gobierno"@es ;
+  rdfs:label "Politics and Government"@en .
+
+anom:cat_economia_petroleo
+  rdf:type anom:Category ;
+  anom:categoryName "Economía y Petróleo"@es ;
+  rdfs:label "Economía y Petróleo"@es ;
+  rdfs:label "Economy and Oil"@en .
+
+anom:cat_seguridad_crimen
+  rdf:type anom:Category ;
+  anom:categoryName "Seguridad y Crimen"@es ;
+  rdfs:label "Seguridad y Crimen"@es ;
+  rdfs:label "Security and Crime"@en .
+
+anom:cat_relaciones_internacionales
+  rdf:type anom:Category ;
+  anom:categoryName "Relaciones Internacionales"@es ;
+  rdfs:label "Relaciones Internacionales"@es ;
+  rdfs:label "International Relations"@en .
+
+anom:cat_problemas_energeticos
+  rdf:type anom:Category ;
+  anom:categoryName "Problemas Energéticos"@es ;
+  rdfs:label "Problemas Energéticos"@es ;
+  rdfs:label "Energy Issues"@en .
+
+anom:cat_medio_ambiente_desastres
+  rdf:type anom:Category ;
+  anom:categoryName "Medio Ambiente y Desastres"@es ;
+  rdfs:label "Medio Ambiente y Desastres"@es ;
+  rdfs:label "Environment and Disasters"@en .
+
+anom:cat_drogas_narcotrafico
+  rdf:type anom:Category ;
+  anom:categoryName "Drogas y Narcotráfico"@es ;
+  rdfs:label "Drogas y Narcotráfico"@es ;
+  rdfs:label "Drugs and Drug Trafficking"@en .
+
+anom:cat_riesgo_pais_calidad_vida
+  rdf:type anom:Category ;
+  anom:categoryName "Riesgo País y Calidad de Vida"@es ;
+  rdfs:label "Riesgo País y Calidad de Vida"@es ;
+  rdfs:label "Country Risk and Quality of Life"@en .
+
+#################################################################
+# Serie ↔ Punto
+#################################################################
+
+anom:hasPoint
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "has point"@en ;
+  rdfs:label "tiene punto"@es ;
+  rdfs:comment "Enlaza una serie con sus puntos."@es ;
+  rdfs:domain anom:Series ;
+  rdfs:range  anom:Point .
+
+anom:isPointOf
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "is point of"@en ;
+  rdfs:label "es punto de"@es ;
+  rdfs:comment "Enlace inverso: un punto pertenece a una serie."@es ;
+  rdfs:domain anom:Point ;
+  rdfs:range  anom:Series ;
+  owl:inverseOf anom:hasPoint .
+
+#################################################################
+# Atributos del Punto
+#################################################################
+
+anom:pointDate
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "point date"@en ;
+  rdfs:label "fecha del punto"@es ;
+  rdfs:domain anom:Point ;
+  rdfs:range  xsd:date .
+
+anom:pointValue
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "point value"@en ;
+  rdfs:label "valor del punto"@es ;
+  rdfs:domain anom:Point ;
+  rdfs:range  xsd:decimal .
+
+anom:pointIndex
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "point index"@en ;
+  rdfs:label "índice del punto"@es ;
+  rdfs:comment "Índice entero del punto en la serie (opcional, si lo manejas)."@es ;
+  rdfs:domain anom:Point ;
+  rdfs:range  xsd:integer .
+
+#################################################################
+# Serie ↔ Anomalía
+#################################################################
+
+anom:series
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "series"@en ;
+  rdfs:label "serie"@es ;
+  rdfs:comment "Enlaza una anomalía con la serie a la que pertenece."@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  anom:Series .
+
+#################################################################
+# Anomalía ↔ Puntos (esto responde a tu necesidad)
+#################################################################
+
+anom:hasAnomalousPoint
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "has anomalous point"@en ;
+  rdfs:label "tiene punto anómalo"@es ;
+  rdfs:comment "Enlaza una anomalía con los puntos específicos afectados."@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  anom:Point .
+
+# Opcional: para anomalías tipo ventana, marcar inicio/fin por punto
+anom:hasStartPoint
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "has start point"@en ;
+  rdfs:label "tiene punto inicio"@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  anom:Point .
+
+anom:hasEndPoint
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "has end point"@en ;
+  rdfs:label "tiene punto fin"@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  anom:Point .
+
+#################################################################
+# Atributos temporales de la Anomalía (si mantienes startDate/endDate)
+#################################################################
+
+anom:startDate
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "start date"@en ;
+  rdfs:label "fecha inicio"@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  xsd:date .
+
+anom:endDate
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "end date"@en ;
+  rdfs:label "fecha fin"@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  xsd:date .
+
+#################################################################
+# Método / metadatos de Anomalía (mínimo)
+#################################################################
+
+anom:method
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "method"@en ;
+  rdfs:label "método"@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  xsd:string .
+
+anom:count
+  rdf:type owl:DatatypeProperty ;
+  rdfs:label "count"@en ;
+  rdfs:label "conteo"@es ;
+  rdfs:comment "Cantidad de puntos afectados u otra métrica resumida."@es ;
+  rdfs:domain anom:Anomaly ;
+  rdfs:range  xsd:integer .
+
+#################################################################
+# Restricciones mínimas útiles
+#################################################################
+
+# Un Point debe pertenecer a una Series
+anom:Point
+  rdfs:subClassOf [
+    rdf:type owl:Restriction ;
+    owl:onProperty anom:isPointOf ;
+    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass anom:Series
+  ] ;
+  rdfs:subClassOf [
+    rdf:type owl:Restriction ;
+    owl:onProperty anom:pointDate ;
+    owl:minCardinality "1"^^xsd:nonNegativeInteger
+  ] ;
+  rdfs:subClassOf [
+    rdf:type owl:Restriction ;
+    owl:onProperty anom:pointValue ;
+    owl:minCardinality "1"^^xsd:nonNegativeInteger
+  ] .
+
+# Una Anomaly debe pertenecer a una Series
+anom:Anomaly
+  rdfs:subClassOf [
+    rdf:type owl:Restriction ;
+    owl:onProperty anom:series ;
+    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass anom:Series
+  ] .
+
+# Una Anomaly debe referenciar al menos un Point (para saber "sobre qué puntos")
+anom:Anomaly
+  rdfs:subClassOf [
+    rdf:type owl:Restriction ;
+    owl:onProperty anom:hasAnomalousPoint ;
+    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass anom:Point
+  ] .
+
+anom:cat_politica_gobierno a anom:Category ; anom:categoryName "Política y Gobierno"@es .
+anom:cat_economia_petroleo a anom:Category ; anom:categoryName "Economía y Petróleo"@es .
+anom:cat_seguridad_crimen a anom:Category ; anom:categoryName "Seguridad y Crimen"@es .
+anom:cat_relaciones_internacionales a anom:Category ; anom:categoryName "Relaciones Internacionales"@es .
+anom:cat_problemas_energeticos a anom:Category ; anom:categoryName "Problemas Energéticos"@es .
+anom:cat_medio_ambiente_desastres a anom:Category ; anom:categoryName "Medio Ambiente y Desastres"@es .
+anom:cat_drogas_narcotrafico a anom:Category ; anom:categoryName "Drogas y Narcotráfico"@es .
+anom:cat_riesgo_pais_calidad_vida a anom:Category ; anom:categoryName "Riesgo País y Calidad de Vida"@es .
+

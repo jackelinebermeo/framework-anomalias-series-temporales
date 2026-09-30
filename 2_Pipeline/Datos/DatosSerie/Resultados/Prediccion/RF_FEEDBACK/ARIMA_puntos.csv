@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-04-10,1757.38,ARIMA,sintetica,RF_FEEDBACK

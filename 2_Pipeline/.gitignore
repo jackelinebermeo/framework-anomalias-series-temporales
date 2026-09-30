@@ -1,0 +1,49 @@
+# =========================
+# Logs y temporales
+# =========================
+logs/
+*.log
+*.out
+*.err
+*.pid
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Airflow DB y archivos runtime
+# =========================
+airflow.db
+airflow.db*
+airflow.db-shm
+airflow.db-wal
+airflow-scheduler.*
+
+# =========================
+# Archivos específicos
+# =========================
+ontology/export_yaml.py
+
+# =========================
+# Outputs del pipeline (tesis)
+# =========================
+concat_anomalies_phase_a_all_models/
+concat_anomalies_phase_b_all_models/
+consolidar_puntos_sinteticos_phase_all_models/
+exportar_ventanas/
+json_serie/
+jsons_sint/
+plot_ventanas/
+t_catalogo_sinteticas/
+t_cmp_embeddings/
+t_cmp_numerico/
+t_copy/
+t_enriq/
+t_plot_consol/
+t_plot_o/
+t_proc_sint/
+t_ttl/
+t_windows/

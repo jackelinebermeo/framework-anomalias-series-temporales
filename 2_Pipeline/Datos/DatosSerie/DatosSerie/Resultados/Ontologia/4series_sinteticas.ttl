@@ -1,0 +1,76 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:series_series_riesgo_pais_1__PM_ARIMA_DIRECT
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_ARIMA_DIRECT"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_ARIMA_DIRECT ;
+  anom:seriesName "series_riesgo_pais_1 (PM_ARIMA_DIRECT)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_ARIMA_FEEDBACK
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_ARIMA_FEEDBACK"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_ARIMA_FEEDBACK ;
+  anom:seriesName "series_riesgo_pais_1 (PM_ARIMA_FEEDBACK)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_PROPHET_DIRECT
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_PROPHET_DIRECT"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_PROPHET_DIRECT ;
+  anom:seriesName "series_riesgo_pais_1 (PM_PROPHET_DIRECT)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_PROPHET_FEEDBACK
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_PROPHET_FEEDBACK"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_PROPHET_FEEDBACK ;
+  anom:seriesName "series_riesgo_pais_1 (PM_PROPHET_FEEDBACK)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_RF_DIRECT
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_RF_DIRECT"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_RF_DIRECT ;
+  anom:seriesName "series_riesgo_pais_1 (PM_RF_DIRECT)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_RF_FEEDBACK
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_RF_FEEDBACK"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_RF_FEEDBACK ;
+  anom:seriesName "series_riesgo_pais_1 (PM_RF_FEEDBACK)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_SVR_DIRECT
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_SVR_DIRECT"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_SVR_DIRECT ;
+  anom:seriesName "series_riesgo_pais_1 (PM_SVR_DIRECT)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .
+
+anom:series_series_riesgo_pais_1__PM_SVR_FEEDBACK
+  rdf:type anom:Series ;
+  anom:seriesId "001__PM_SVR_FEEDBACK"^^xsd:string ;
+  anom:hasSource anom:SyntheticSource ;
+  anom:predictedBy anom:PM_SVR_FEEDBACK ;
+  anom:seriesName "series_riesgo_pais_1 (PM_SVR_FEEDBACK)"^^xsd:string ;
+  anom:frequency "daily"^^xsd:string ;
+  anom:unit "points"^^xsd:string .

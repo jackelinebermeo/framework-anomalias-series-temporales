@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-04-15,1779.7,DIF,sintetica,PROPHET_FEEDBACK
+2025-04-22,1771.89,DIF,sintetica,PROPHET_FEEDBACK

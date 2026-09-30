@@ -1,0 +1,40 @@
+{
+  "estacionalidad_detectada": false,
+  "periodo_sugerido": 7,
+  "modelo": "additive",
+  "fuerza_estacionalidad": 0.0145,
+  "evaluaciones": [
+    {
+      "periodo": 7,
+      "modelo": "additive",
+      "fuerza": 0.0145
+    },
+    {
+      "periodo": 7,
+      "modelo": "multiplicative",
+      "fuerza": 0.0145
+    },
+    {
+      "periodo": 30,
+      "modelo": "additive",
+      "fuerza": 0.0
+    },
+    {
+      "periodo": 30,
+      "modelo": "multiplicative",
+      "fuerza": 0.0
+    },
+    {
+      "periodo": 365,
+      "modelo": "additive",
+      "fuerza": 0.0
+    },
+    {
+      "periodo": 365,
+      "modelo": "multiplicative",
+      "fuerza": 0.0
+    }
+  ],
+  "frecuencia_inferida": "D",
+  "grafico_path": "/tmp/DatosSerie/descomposicion.png"
+}

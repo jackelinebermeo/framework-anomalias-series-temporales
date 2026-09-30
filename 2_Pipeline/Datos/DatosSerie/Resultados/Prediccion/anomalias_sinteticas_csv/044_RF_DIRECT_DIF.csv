@@ -1,0 +1,17 @@
+id,valor,fuente,fecha,metodo_prediccion,metodo_deteccion,anomalo
+44,1776.64,sintetica,2025-04-10,RF_DIRECT,DIF,False
+44,1764.772,sintetica,2025-04-11,RF_DIRECT,DIF,False
+44,1748.546,sintetica,2025-04-12,RF_DIRECT,DIF,False
+44,1740.408,sintetica,2025-04-13,RF_DIRECT,DIF,False
+44,1726.02,sintetica,2025-04-14,RF_DIRECT,DIF,False
+44,1706.31,sintetica,2025-04-15,RF_DIRECT,DIF,True
+44,1698.012,sintetica,2025-04-16,RF_DIRECT,DIF,False
+44,1692.946,sintetica,2025-04-17,RF_DIRECT,DIF,False
+44,1686.19,sintetica,2025-04-18,RF_DIRECT,DIF,False
+44,1683.266,sintetica,2025-04-19,RF_DIRECT,DIF,False
+44,1683.924,sintetica,2025-04-20,RF_DIRECT,DIF,False
+44,1679.666,sintetica,2025-04-21,RF_DIRECT,DIF,False
+44,1673.91,sintetica,2025-04-22,RF_DIRECT,DIF,False
+44,1674.482,sintetica,2025-04-23,RF_DIRECT,DIF,False
+44,1664.808,sintetica,2025-04-24,RF_DIRECT,DIF,False
+44,1652.61,sintetica,2025-04-25,RF_DIRECT,DIF,False

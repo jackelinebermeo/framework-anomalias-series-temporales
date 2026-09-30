@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-03,1763.5,DBSCAN,sintetica,PROPHET_FEEDBACK

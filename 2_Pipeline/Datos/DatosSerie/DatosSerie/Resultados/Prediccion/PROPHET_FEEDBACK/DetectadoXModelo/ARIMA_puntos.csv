@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-04-10,1784.84,ARIMA,sintetica,PROPHET_FEEDBACK
+2025-04-22,1771.89,ARIMA,sintetica,PROPHET_FEEDBACK

@@ -1,0 +1,3 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-04-14,1785.19,IFOREST,sintetica,PROPHET_FEEDBACK
+2025-05-09,1755.65,IFOREST,sintetica,PROPHET_FEEDBACK

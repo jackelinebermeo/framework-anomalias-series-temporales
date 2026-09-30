@@ -1,0 +1,2220 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+anom:SR_Visual_Top2
+  rdf:type anom:SimilarityRun ;
+  anom:runMethod anom:SM_ImageEmbeddings ;
+  anom:selectionPolicy anom:TOP_K ;
+  anom:topK "2"^^xsd:integer ;
+  anom:sourceFile "similaridades_embeddings.csv"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_1
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_1 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9364277124404907"^^xsd:decimal ;
+  anom:similarityPct "93.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/001_ARIMA_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "001_ARIMA_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_1
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_1 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9342410564422607"^^xsd:decimal ;
+  anom:similarityPct "93.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/001_ARIMA_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "001_ARIMA_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_2
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_2 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9376286268234253"^^xsd:decimal ;
+  anom:similarityPct "93.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/002_ARIMA_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "002_ARIMA_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_2
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_2 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9296653270721436"^^xsd:decimal ;
+  anom:similarityPct "93.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/002_ARIMA_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "002_ARIMA_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_3
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_3 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9369074106216431"^^xsd:decimal ;
+  anom:similarityPct "93.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/003_ARIMA_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "003_ARIMA_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_3
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_3 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9317881464958191"^^xsd:decimal ;
+  anom:similarityPct "93.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/003_ARIMA_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "003_ARIMA_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_4
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_4 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9364277124404907"^^xsd:decimal ;
+  anom:similarityPct "93.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/004_ARIMA_DIF.png"^^xsd:string ;
+  anom:evidenceFile "004_ARIMA_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_4
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_4 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9342410564422607"^^xsd:decimal ;
+  anom:similarityPct "93.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/004_ARIMA_DIF.png"^^xsd:string ;
+  anom:evidenceFile "004_ARIMA_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_5
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_5 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9369074106216431"^^xsd:decimal ;
+  anom:similarityPct "93.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/005_ARIMA_DIF.png"^^xsd:string ;
+  anom:evidenceFile "005_ARIMA_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_5
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_5 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9317881464958191"^^xsd:decimal ;
+  anom:similarityPct "93.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/005_ARIMA_DIF.png"^^xsd:string ;
+  anom:evidenceFile "005_ARIMA_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_6
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_6 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9323807954788208"^^xsd:decimal ;
+  anom:similarityPct "93.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/006_ARIMA_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "006_ARIMA_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_6
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_6 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9280710220336914"^^xsd:decimal ;
+  anom:similarityPct "92.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/006_ARIMA_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "006_ARIMA_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_7
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_7 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9369074106216431"^^xsd:decimal ;
+  anom:similarityPct "93.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/007_ARIMA_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "007_ARIMA_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_7
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_7 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9317881464958191"^^xsd:decimal ;
+  anom:similarityPct "93.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/007_ARIMA_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "007_ARIMA_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_19_8
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_19 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_8 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9369074106216431"^^xsd:decimal ;
+  anom:similarityPct "93.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/019_2008-10-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/008_ARIMA_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "008_ARIMA_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_30_8
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_8 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9317881464958191"^^xsd:decimal ;
+  anom:similarityPct "93.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/008_ARIMA_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "008_ARIMA_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_70_9
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_70 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_9 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9547008275985718"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/070_2016-04-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/009_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "009_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_66_9
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_9 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9544214010238647"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/009_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "009_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_66_10
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_10 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9623701572418213"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/010_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "010_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_10
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_10 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9607818126678467"^^xsd:decimal ;
+  anom:similarityPct "96.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/010_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "010_ARIMA_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_11
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_11 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9524209499359131"^^xsd:decimal ;
+  anom:similarityPct "95.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/011_ARIMA_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "011_ARIMA_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_123_11
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_11 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9522817730903625"^^xsd:decimal ;
+  anom:similarityPct "95.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/011_ARIMA_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "011_ARIMA_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_32_12
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_32 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_12 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9538671374320984"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/032_2009-01-14.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/012_ARIMA_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "012_ARIMA_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_12
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_12 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9532769918441772"^^xsd:decimal ;
+  anom:similarityPct "95.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/012_ARIMA_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "012_ARIMA_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_13
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_13 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9594141840934753"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/013_ARIMA_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "013_ARIMA_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_66_13
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_13 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9591624140739441"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/013_ARIMA_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "013_ARIMA_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_123_14
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_14 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9552794694900513"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/014_ARIMA_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "014_ARIMA_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_14
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_14 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9527398943901062"^^xsd:decimal ;
+  anom:similarityPct "95.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/014_ARIMA_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "014_ARIMA_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_66_15
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_15 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9623701572418213"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/015_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "015_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_15
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_15 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9607818126678467"^^xsd:decimal ;
+  anom:similarityPct "96.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/015_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "015_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_66_16
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_16 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.953916072845459"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/016_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "016_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_16
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_16 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9513591527938843"^^xsd:decimal ;
+  anom:similarityPct "95.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/016_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "016_ARIMA_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_123_17
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_17 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9584187269210815"^^xsd:decimal ;
+  anom:similarityPct "95.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/017_ARIMA_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "017_ARIMA_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_ARIMA_65_17
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_ARIMA_17 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.953457236289978"^^xsd:decimal ;
+  anom:similarityPct "95.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/017_ARIMA_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "017_ARIMA_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_79_18
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_18 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9619179368019104"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/018_SVR_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "018_SVR_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_62_18
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_62 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_18 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9588402509689331"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/062_2016-01-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/018_SVR_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "018_SVR_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_15_19
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_15 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_19 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9598168134689331"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/015_2008-09-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/019_SVR_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "019_SVR_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_80_19
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_80 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_19 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.956493616104126"^^xsd:decimal ;
+  anom:similarityPct "95.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/080_2020-02-27.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/019_SVR_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "019_SVR_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_79_20
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_20 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9562830328941345"^^xsd:decimal ;
+  anom:similarityPct "95.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/020_SVR_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "020_SVR_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_62_20
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_62 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_20 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9540735483169556"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/062_2016-01-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/020_SVR_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "020_SVR_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_79_21
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_21 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9586653709411621"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/021_SVR_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "021_SVR_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_62_21
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_62 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_21 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9529590606689453"^^xsd:decimal ;
+  anom:similarityPct "95.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/062_2016-01-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/021_SVR_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "021_SVR_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_79_22
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_22 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9619179368019104"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/022_SVR_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "022_SVR_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_62_22
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_62 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_22 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9588402509689331"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/062_2016-01-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/022_SVR_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "022_SVR_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_79_23
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_23 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9578571319580078"^^xsd:decimal ;
+  anom:similarityPct "95.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/023_SVR_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "023_SVR_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_15_23
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_15 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_23 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.957231879234314"^^xsd:decimal ;
+  anom:similarityPct "95.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/015_2008-09-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/023_SVR_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "023_SVR_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_24
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_24 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9631057977676392"^^xsd:decimal ;
+  anom:similarityPct "96.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/024_SVR_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "024_SVR_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_115_24
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_115 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_24 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9616321325302124"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/115_2022-08-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/024_SVR_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "024_SVR_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_25
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_25 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9691349267959595"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/025_SVR_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "025_SVR_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_25
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_25 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.968646764755249"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/025_SVR_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "025_SVR_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_26
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_26 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9637695550918579"^^xsd:decimal ;
+  anom:similarityPct "96.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/026_SVR_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "026_SVR_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_26
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_26 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9629610180854797"^^xsd:decimal ;
+  anom:similarityPct "96.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/026_SVR_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "026_SVR_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_27
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_27 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9672361612319946"^^xsd:decimal ;
+  anom:similarityPct "96.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/027_SVR_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "027_SVR_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_27
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_27 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9659884572029114"^^xsd:decimal ;
+  anom:similarityPct "96.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/027_SVR_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "027_SVR_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_28
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_28 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9679745435714722"^^xsd:decimal ;
+  anom:similarityPct "96.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/028_SVR_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "028_SVR_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_156_28
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_156 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_28 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.965887188911438"^^xsd:decimal ;
+  anom:similarityPct "96.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/156_2024-11-06.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/028_SVR_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "028_SVR_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_156_29
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_156 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_29 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9699146747589111"^^xsd:decimal ;
+  anom:similarityPct "97.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/156_2024-11-06.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/029_SVR_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "029_SVR_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_29
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_29 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9689746499061584"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/029_SVR_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "029_SVR_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_30
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_30 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9631057977676392"^^xsd:decimal ;
+  anom:similarityPct "96.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/030_SVR_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "030_SVR_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_115_30
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_115 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_30 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9616321325302124"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/115_2022-08-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/030_SVR_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "030_SVR_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_31
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_31 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9691349267959595"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/031_SVR_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "031_SVR_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_35_31
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_35 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_31 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.968646764755249"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/035_2009-02-23.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/031_SVR_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "031_SVR_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_143_32
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_32 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9743441939353943"^^xsd:decimal ;
+  anom:similarityPct "97.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/032_SVR_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "032_SVR_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_SVR_134_32
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_134 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_SVR_32 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9711911082267761"^^xsd:decimal ;
+  anom:similarityPct "97.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/134_2023-03-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/032_SVR_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "032_SVR_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_33
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_33 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9673397541046143"^^xsd:decimal ;
+  anom:similarityPct "96.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/033_RF_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "033_RF_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_15_33
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_15 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_33 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.960201621055603"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/015_2008-09-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/033_RF_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "033_RF_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_34
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_34 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9614332914352417"^^xsd:decimal ;
+  anom:similarityPct "96.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/034_RF_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "034_RF_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_140_34
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_140 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_34 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9548680782318115"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/140_2023-05-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/034_RF_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "034_RF_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_121_35
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_121 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_35 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9687469005584717"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/121_2022-10-11.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/035_RF_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "035_RF_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_89_35
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_89 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_35 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9657989740371704"^^xsd:decimal ;
+  anom:similarityPct "96.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/089_2020-05-18.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/035_RF_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "035_RF_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_88_36
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_36 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9599654674530029"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/036_RF_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "036_RF_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_RF_112_36
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_112 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_36 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9592780470848083"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/112_2022-07-26.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/036_RF_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "036_RF_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_37
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_37 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9614332914352417"^^xsd:decimal ;
+  anom:similarityPct "96.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/037_RF_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "037_RF_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_140_37
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_140 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_37 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9548680782318115"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/140_2023-05-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/037_RF_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "037_RF_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_38
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_38 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9593819379806519"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/038_RF_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "038_RF_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_96_38
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_96 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_38 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9551007747650146"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/096_2020-07-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/038_RF_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "038_RF_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_39
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_39 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9581908583641052"^^xsd:decimal ;
+  anom:similarityPct "95.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/039_RF_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "039_RF_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_RF_140_39
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_140 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_39 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9502343535423279"^^xsd:decimal ;
+  anom:similarityPct "95.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/140_2023-05-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/039_RF_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "039_RF_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_RF_96_40
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_96 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_40 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9645013809204102"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/096_2020-07-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/040_RF_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "040_RF_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_RF_20_40
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_20 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_40 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9629424810409546"^^xsd:decimal ;
+  anom:similarityPct "96.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/020_2008-11-03.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/040_RF_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "040_RF_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_RF_32_41
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_32 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_41 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9439898729324341"^^xsd:decimal ;
+  anom:similarityPct "94.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/032_2009-01-14.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/041_RF_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "041_RF_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_30_41
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_41 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9429312348365784"^^xsd:decimal ;
+  anom:similarityPct "94.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/041_RF_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "041_RF_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_65_42
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_42 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9480708837509155"^^xsd:decimal ;
+  anom:similarityPct "94.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/042_RF_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "042_RF_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_66_42
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_42 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9466897249221802"^^xsd:decimal ;
+  anom:similarityPct "94.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/042_RF_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "042_RF_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_RF_70_43
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_70 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_43 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9586355090141296"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/070_2016-04-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/043_RF_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "043_RF_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_RF_129_43
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_129 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_43 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9576694965362549"^^xsd:decimal ;
+  anom:similarityPct "95.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/129_2023-02-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/043_RF_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "043_RF_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_RF_79_44
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_79 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_44 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9551953673362732"^^xsd:decimal ;
+  anom:similarityPct "95.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/079_2020-02-25.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/044_RF_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "044_RF_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_30_44
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_44 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9535407423973083"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/044_RF_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "044_RF_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_30_45
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_45 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9516245722770691"^^xsd:decimal ;
+  anom:similarityPct "95.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/045_RF_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "045_RF_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_62_45
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_62 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_45 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9469287395477295"^^xsd:decimal ;
+  anom:similarityPct "94.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/062_2016-01-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/045_RF_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "045_RF_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_RF_32_46
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_32 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_46 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9439898729324341"^^xsd:decimal ;
+  anom:similarityPct "94.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/032_2009-01-14.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/046_RF_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "046_RF_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_RF_30_46
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_46 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9429312348365784"^^xsd:decimal ;
+  anom:similarityPct "94.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/046_RF_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "046_RF_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_RF_30_47
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_30 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_47 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9521998167037964"^^xsd:decimal ;
+  anom:similarityPct "95.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/030_2008-12-29.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/047_RF_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "047_RF_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_RF_65_47
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_RF_47 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9510083198547363"^^xsd:decimal ;
+  anom:similarityPct "95.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/047_RF_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "047_RF_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_151_48
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_151 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_48 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.962043046951294"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/151_2024-02-09.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/048_PROPHET_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "048_PROPHET_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_123_48
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_48 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9602535963058472"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/048_PROPHET_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "048_PROPHET_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_49
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_49 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9621812701225281"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/049_PROPHET_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "049_PROPHET_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_65_49
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_49 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.956607460975647"^^xsd:decimal ;
+  anom:similarityPct "95.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/049_PROPHET_DIRECT_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "049_PROPHET_DIRECT_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_65_50
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_50 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.957269549369812"^^xsd:decimal ;
+  anom:similarityPct "95.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/050_PROPHET_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "050_PROPHET_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_50
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_50 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9532964825630188"^^xsd:decimal ;
+  anom:similarityPct "95.3%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/050_PROPHET_DIRECT_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "050_PROPHET_DIRECT_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_51
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_51 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9644074440002441"^^xsd:decimal ;
+  anom:similarityPct "96.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/051_PROPHET_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "051_PROPHET_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_65_51
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_51 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9613422751426697"^^xsd:decimal ;
+  anom:similarityPct "96.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/051_PROPHET_DIRECT_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "051_PROPHET_DIRECT_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_65_52
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_52 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9590709209442139"^^xsd:decimal ;
+  anom:similarityPct "95.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/052_PROPHET_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "052_PROPHET_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_52
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_52 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9535849094390869"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/052_PROPHET_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "052_PROPHET_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_65_53
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_65 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_53 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9536957740783691"^^xsd:decimal ;
+  anom:similarityPct "95.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/065_2016-02-17.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/053_PROPHET_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "053_PROPHET_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_53
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_53 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9506021738052368"^^xsd:decimal ;
+  anom:similarityPct "95.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/053_PROPHET_DIRECT_DIF.png"^^xsd:string ;
+  anom:evidenceFile "053_PROPHET_DIRECT_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_151_54
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_151 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_54 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.962043046951294"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/151_2024-02-09.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/054_PROPHET_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "054_PROPHET_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_123_54
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_54 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9602535963058472"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/054_PROPHET_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "054_PROPHET_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_55
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_55 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9615478515625"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/055_PROPHET_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "055_PROPHET_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_70_55
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_70 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_55 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9596282243728638"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/070_2016-04-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/055_PROPHET_DIRECT_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "055_PROPHET_DIRECT_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_66_56
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_66 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_56 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9615478515625"^^xsd:decimal ;
+  anom:similarityPct "96.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/066_2016-02-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/056_PROPHET_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "056_PROPHET_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_70_56
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_70 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_56 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9596282243728638"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/070_2016-04-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/056_PROPHET_DIRECT_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "056_PROPHET_DIRECT_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_74_57
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_74 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_57 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9642085433006287"^^xsd:decimal ;
+  anom:similarityPct "96.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/074_2019-10-08.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/057_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "057_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_94_57
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_94 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_57 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.959680438041687"^^xsd:decimal ;
+  anom:similarityPct "96.0%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/094_2020-07-06.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/057_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "057_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_88_58
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_58 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9649224877357483"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/058_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "058_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_106_58
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_106 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_58 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9642751812934875"^^xsd:decimal ;
+  anom:similarityPct "96.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/106_2022-06-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/058_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string ;
+  anom:evidenceFile "058_PROPHET_FEEDBACK_ARIMA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_152_59
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_152 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_59 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9662120342254639"^^xsd:decimal ;
+  anom:similarityPct "96.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/152_2024-03-01.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/059_PROPHET_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "059_PROPHET_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_41_59
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_41 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_59 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9654545783996582"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/041_2009-06-12.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/059_PROPHET_FEEDBACK_COUTA.png"^^xsd:string ;
+  anom:evidenceFile "059_PROPHET_FEEDBACK_COUTA.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_88_60
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_60 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9669293165206909"^^xsd:decimal ;
+  anom:similarityPct "96.7%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/060_PROPHET_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "060_PROPHET_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_123_60
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_123 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_60 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9646368026733398"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/123_2022-10-24.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/060_PROPHET_FEEDBACK_DBSCAN.png"^^xsd:string ;
+  anom:evidenceFile "060_PROPHET_FEEDBACK_DBSCAN.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_143_61
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_61 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9720417261123657"^^xsd:decimal ;
+  anom:similarityPct "97.2%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/061_PROPHET_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "061_PROPHET_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_134_61
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_134 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_61 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9693292379379272"^^xsd:decimal ;
+  anom:similarityPct "96.9%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/134_2023-03-28.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/061_PROPHET_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "061_PROPHET_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_88_62
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_62 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9649224877357483"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/062_PROPHET_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "062_PROPHET_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_106_62
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_106 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_62 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9642751812934875"^^xsd:decimal ;
+  anom:similarityPct "96.4%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/106_2022-06-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/062_PROPHET_FEEDBACK_DIF.png"^^xsd:string ;
+  anom:evidenceFile "062_PROPHET_FEEDBACK_DIF.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_143_63
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_143 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_63 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9706689715385437"^^xsd:decimal ;
+  anom:similarityPct "97.1%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/143_2023-08-15.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/063_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "063_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_2_63
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_2 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_63 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9683379530906677"^^xsd:decimal ;
+  anom:similarityPct "96.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/002_2005-04-26.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/063_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "063_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_88_64
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_64 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9682110548019409"^^xsd:decimal ;
+  anom:similarityPct "96.8%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/064_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "064_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_96_64
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_96 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_64 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.965423047542572"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/096_2020-07-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/064_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string ;
+  anom:evidenceFile "064_PROPHET_FEEDBACK_IFOREST.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_106_65
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_106 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_65 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9659864902496338"^^xsd:decimal ;
+  anom:similarityPct "96.6%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "1"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/106_2022-06-22.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/065_PROPHET_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "065_PROPHET_FEEDBACK_TIMEGPT.png"^^xsd:string .
+
+anom:sim_emb_001_PROPHET_88_65
+  rdf:type anom:Similarity ;
+  anom:betweenAnomalyA anom:anomaly_001_88 ;
+  anom:betweenAnomalyB anom:anomaly_syn_001_PROPHET_65 ;
+  anom:computedBy anom:SM_ImageEmbeddings ;
+  anom:fromRun anom:SR_Visual_Top2 ;
+  anom:hasScale anom:Scale_0_1 ;
+  anom:similarityValue "0.9649827480316162"^^xsd:decimal ;
+  anom:similarityPct "96.5%"^^xsd:string ;
+  anom:modelName "clip-ViT-B-32 (GRAFICO)"^^xsd:string ;
+  anom:thresholdUsed "0.75"^^xsd:decimal ;
+  anom:passedThreshold "true"^^xsd:boolean ;
+  anom:rank "2"^^xsd:integer ;
+  anom:originalPath "/tmp/DatosSerie/Resultados/GraficosConsolidado/GraficosOriginalLimpios/088_2020-05-13.png"^^xsd:string ;
+  anom:syntheticPath "/tmp/DatosSerie/Resultados/Prediccion/anomalias_sinteticos_limpios/065_PROPHET_FEEDBACK_TIMEGPT.png"^^xsd:string ;
+  anom:evidenceFile "065_PROPHET_FEEDBACK_TIMEGPT.png"^^xsd:string .

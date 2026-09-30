@@ -1,0 +1,4 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-07,1695.01,COUTA,sintetica,SVR_DIRECT
+2025-05-08,1685.05,COUTA,sintetica,SVR_DIRECT
+2025-05-09,1631.89,COUTA,sintetica,SVR_DIRECT

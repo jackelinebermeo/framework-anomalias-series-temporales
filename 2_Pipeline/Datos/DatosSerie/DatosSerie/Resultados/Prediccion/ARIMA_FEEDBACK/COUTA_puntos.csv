@@ -1,0 +1,4 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-07,1695.77,COUTA,sintetica,ARIMA_FEEDBACK
+2025-05-08,1693.33,COUTA,sintetica,ARIMA_FEEDBACK
+2025-05-09,1690.15,COUTA,sintetica,ARIMA_FEEDBACK

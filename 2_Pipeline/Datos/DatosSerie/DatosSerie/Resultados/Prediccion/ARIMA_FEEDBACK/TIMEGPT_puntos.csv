@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-09,1690.15,TIMEGPT,sintetica,ARIMA_FEEDBACK

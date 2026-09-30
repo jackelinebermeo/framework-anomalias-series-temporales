@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-03,1671.25,DBSCAN,sintetica,SVR_DIRECT

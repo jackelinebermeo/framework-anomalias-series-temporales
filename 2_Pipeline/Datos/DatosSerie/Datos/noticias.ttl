@@ -1,0 +1,93 @@
+@prefix anom: <http://w3id.org/anomaly-core#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Noticia asociada a anomalía – 15/04/2005
+#################################################################
+
+anom:news_eluniverso_20050415_estado_emergencia
+  rdf:type anom:NewsArticle ;
+  anom:publishedAt "2005-04-15"^^xsd:date ;
+  anom:newsTitle "Gutiérrez declara estado de emergencia y disuelve la Corte Suprema"@es ;
+  anom:newsSource "El Universo"^^xsd:string ;
+  anom:newsUrl <https://www.eluniverso.com/2005/04/15/0001/8/A6960152070B477E818E1A604323C61A.html> ;
+  anom:newsText """
+El presidente de Ecuador, Lucio Gutiérrez, decretó el estado de emergencia
+en Quito y la provincia de Pichincha ante la creciente crisis política y
+las protestas ciudadanas registradas en la capital.
+
+Como parte de la medida, el mandatario cesó a los magistrados de la Corte
+Suprema de Justicia, declaró a Quito como zona de seguridad y restringió
+temporalmente derechos ciudadanos, facultándose para adoptar medidas
+excepcionales de control del orden público.
+
+La decisión fue anunciada mediante cadena nacional de radio y televisión
+y generó fuertes críticas de sectores políticos y jurídicos, que
+cuestionaron la constitucionalidad de la disolución de la Corte Suprema
+y advirtieron sobre un quiebre institucional.
+""" ;
+  anom:hasCategory anom:cat_politica_gobierno ;
+  anom:isNewsOf anom:anomalia_200504 .
+
+
+
+anom:anomalia_200504
+  anom:hasNews anom:news_eluniverso_20050415_estado_emergencia .
+
+#################################################################
+# Noticia asociada a anomalía – 21/04/2005
+#################################################################
+
+anom:news_swissinfo_20050421_destitucion_gutierrez
+  rdf:type anom:NewsArticle ;
+  anom:publishedAt "2005-04-21"^^xsd:date ;
+  anom:newsTitle "Destituido el presidente de Ecuador"@es ;
+  anom:newsSource "Swissinfo"^^xsd:string ;
+  anom:newsUrl <https://www.swissinfo.ch/spa/politica-suiza/destituido-el-presidente-de-ecuador/4468106> ;
+  anom:newsText """
+El Congreso de Ecuador destituyó al presidente Lucio Gutiérrez en medio de
+una profunda crisis política y social, tras varios días de protestas
+masivas en la capital y otras ciudades del país.
+
+La decisión parlamentaria se produjo luego de que el mandatario perdiera
+el respaldo de las Fuerzas Armadas y de amplios sectores políticos, lo que
+provocó un quiebre definitivo en la gobernabilidad. Tras la destitución,
+el vicepresidente Alfredo Palacio asumió la presidencia de la República.
+
+La salida de Gutiérrez marcó uno de los episodios de mayor inestabilidad
+institucional en Ecuador en la década, con impactos directos en la
+confianza política y en la percepción internacional del país.
+""" ;
+  anom:hasCategory anom:cat_politica_gobierno ;
+  anom:isNewsOf anom:anomalia_200504 .
+
+
+
+anom:anomalia_200504
+  anom:hasNews anom:news_swissinfo_20050421_destitucion_gutierrez .
+
+#################################################################
+# Noticia asociada a anomalía – 20/04/2005
+#################################################################
+
+anom:news_eltelegrafo_20050420_forajidos
+  rdf:type anom:NewsArticle ;
+  anom:publishedAt "2005-04-20"^^xsd:date ;
+  anom:newsTitle "En 2005 los forajidos gestaron una nueva época"@es ;
+  anom:newsSource "El Telégrafo"^^xsd:string ;
+  anom:newsUrl <https://www.eltelegrafo.com.ec/noticias/politica/1/en-2005-los-forajidos-gestaron-una-nueva-epoca> ;
+  anom:newsText """
+Artículo de contexto sobre la denominada “rebelión de los forajidos” ocurrida en abril de 2005.
+Describe el clima social y político de las jornadas de protesta, el rol de la movilización ciudadana
+y el quiebre de gobernabilidad que derivó en cambios institucionales y en la salida del presidente
+Lucio Gutiérrez. Presenta una lectura retrospectiva del episodio y su impacto en la vida política
+posterior del país.
+""" ;
+  anom:hasCategory anom:cat_politica_gobierno ;
+  anom:isNewsOf anom:anomalia_200504 .
+
+
+anom:anomalia_200504
+  anom:hasNews anom:news_eltelegrafo_20050420_forajidos .

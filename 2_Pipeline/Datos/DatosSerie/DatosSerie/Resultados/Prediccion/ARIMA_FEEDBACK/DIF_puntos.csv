@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-05-01,1704.83,DIF,sintetica,ARIMA_FEEDBACK

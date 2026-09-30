@@ -1,0 +1,2 @@
+fecha,valor,modelo,fuente,metodo_prediccion
+2025-04-12,1735.04,IFOREST,sintetica,ARIMA_FEEDBACK
