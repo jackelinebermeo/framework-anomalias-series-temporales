@@ -525,7 +525,7 @@ def generar_noticias_comparacion_grafica_hist(CFG) -> str:
     import pandas as pd
     from datetime import date, timedelta
  
-    FUSEKI_ENDPOINT = getattr(CFG, "FUSEKI_ENDPOINT", "http://localhost:3030/v19/sparql")
+    FUSEKI_ENDPOINT = getattr(CFG, "FUSEKI_ENDPOINT", "http://localhost:3030/c22/sparql")
     ANOM_PREFIX     = "http://w3id.org/anomaly-core#"
     VENTANA_DIAS    = int(getattr(CFG, "VENTANA_DIAS_NOTICIAS", 5))
  
